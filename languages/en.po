@@ -1,0 +1,473 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-09-04 00:29+0600\n"
+"PO-Revision-Date: 2020-09-04 00:29+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ../../../../opt/lampp/htdocs/urban-charity/wp-content/"
+"themes/urban-charity\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;__e;esc_html;esc_html_e;esc_attr;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:18 search.php:38
+msgid "HOME"
+msgstr ""
+
+#: comments.php:25
+msgid "Comment List"
+msgstr ""
+
+#: comments.php:27 comments.php:95
+msgid "Leave a comment"
+msgstr ""
+
+#: comments.php:32
+#, php-format
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:37
+#, php-format
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:82 comments.php:85 comments.php:86
+msgid "Comments"
+msgstr ""
+
+#: comments.php:85
+msgid "Previous"
+msgstr ""
+
+#: comments.php:86
+msgid "Next"
+msgstr ""
+
+#: comments.php:106
+msgid "Comments are closed."
+msgstr ""
+
+#: header.php:35
+msgid "Call us"
+msgstr ""
+
+#: header.php:100
+msgid "Search . . ."
+msgstr ""
+
+#: header.php:152 searchform.php:2
+msgid "Search . . . . ."
+msgstr ""
+
+#: lib/Charity_Comments.php:48
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: lib/Charity_Comments.php:54
+msgid "Edit"
+msgstr ""
+
+#: lib/Charity_Comments.php:72
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:386
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:387
+#: lib/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:388
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/customizer/controls/checkbox-button.php:28
+#: lib/customizer/controls/checkbox-button.php:29
+#: lib/customizer/controls/checkbox-image.php:27
+#: lib/customizer/controls/checkbox-image.php:28
+#: lib/customizer/controls/color-palette.php:27
+#: lib/customizer/controls/color-palette.php:28
+#: lib/customizer/controls/radio-button.php:27
+#: lib/customizer/controls/radio-button.php:28
+#: lib/customizer/controls/radio-image.php:27
+#: lib/customizer/controls/radio-image.php:28
+msgid "_"
+msgstr ""
+
+#: lib/customizer/customizer.php:295
+msgid "Urban Charity Options"
+msgstr ""
+
+#: lib/customizer/customizer.php:595 lib/customizer/customizer.php:650
+#: lib/customizer/customizer.php:706 lib/customizer/customizer.php:762
+#: lib/customizer/customizer.php:818 lib/customizer/customizer.php:874
+#: lib/customizer/customizer.php:931
+msgid "Select"
+msgstr ""
+
+#: lib/customizer/customizer.php:596 lib/customizer/customizer.php:651
+#: lib/customizer/customizer.php:707 lib/customizer/customizer.php:763
+#: lib/customizer/customizer.php:819 lib/customizer/customizer.php:875
+#: lib/customizer/customizer.php:932
+msgid "100"
+msgstr ""
+
+#: lib/customizer/customizer.php:597 lib/customizer/customizer.php:652
+#: lib/customizer/customizer.php:708 lib/customizer/customizer.php:764
+#: lib/customizer/customizer.php:820 lib/customizer/customizer.php:876
+#: lib/customizer/customizer.php:933
+msgid "200"
+msgstr ""
+
+#: lib/customizer/customizer.php:598 lib/customizer/customizer.php:653
+#: lib/customizer/customizer.php:709 lib/customizer/customizer.php:765
+#: lib/customizer/customizer.php:821 lib/customizer/customizer.php:877
+#: lib/customizer/customizer.php:934
+msgid "300"
+msgstr ""
+
+#: lib/customizer/customizer.php:599 lib/customizer/customizer.php:654
+#: lib/customizer/customizer.php:710 lib/customizer/customizer.php:766
+#: lib/customizer/customizer.php:822 lib/customizer/customizer.php:878
+#: lib/customizer/customizer.php:935
+msgid "400"
+msgstr ""
+
+#: lib/customizer/customizer.php:600 lib/customizer/customizer.php:655
+#: lib/customizer/customizer.php:711 lib/customizer/customizer.php:767
+#: lib/customizer/customizer.php:823 lib/customizer/customizer.php:879
+#: lib/customizer/customizer.php:936
+msgid "500"
+msgstr ""
+
+#: lib/customizer/customizer.php:601 lib/customizer/customizer.php:656
+#: lib/customizer/customizer.php:712 lib/customizer/customizer.php:768
+#: lib/customizer/customizer.php:824 lib/customizer/customizer.php:880
+#: lib/customizer/customizer.php:937
+msgid "600"
+msgstr ""
+
+#: lib/customizer/customizer.php:602 lib/customizer/customizer.php:657
+#: lib/customizer/customizer.php:713 lib/customizer/customizer.php:769
+#: lib/customizer/customizer.php:825 lib/customizer/customizer.php:881
+#: lib/customizer/customizer.php:938
+msgid "700"
+msgstr ""
+
+#: lib/customizer/customizer.php:603 lib/customizer/customizer.php:658
+#: lib/customizer/customizer.php:714 lib/customizer/customizer.php:770
+#: lib/customizer/customizer.php:826 lib/customizer/customizer.php:882
+#: lib/customizer/customizer.php:939
+msgid "800"
+msgstr ""
+
+#: lib/customizer/customizer.php:604 lib/customizer/customizer.php:659
+#: lib/customizer/customizer.php:715 lib/customizer/customizer.php:771
+#: lib/customizer/customizer.php:827 lib/customizer/customizer.php:883
+#: lib/customizer/customizer.php:940
+msgid "900"
+msgstr ""
+
+#: lib/customizer/customizer.php:1273
+msgid "Column 1"
+msgstr ""
+
+#: lib/customizer/customizer.php:1274
+msgid "Column 2"
+msgstr ""
+
+#: lib/customizer/customizer.php:1275
+msgid "Column 3"
+msgstr ""
+
+#: lib/customizer/customizer.php:1276
+msgid "Column 4"
+msgstr ""
+
+#: lib/main-function/charity-functions.php:38
+msgid "<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: lib/main-function/charity-functions.php:39
+msgid "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: lib/main-function/charity-functions.php:117
+msgid "Home"
+msgstr ""
+
+#: lib/main-function/charity-functions.php:128
+msgid "shop"
+msgstr ""
+
+#: lib/main-function/charity-functions.php:131
+msgid "Posts Tagged "
+msgstr ""
+
+#: lib/main-function/charity-functions.php:133
+#: lib/main-function/charity-functions.php:135
+#: lib/main-function/charity-functions.php:137
+msgid "Posts made in"
+msgstr ""
+
+#: lib/main-function/charity-functions.php:139
+msgid "Search results for"
+msgstr ""
+
+#: lib/main-function/charity-functions.php:167
+msgid "Posts by "
+msgstr ""
+
+#: lib/main-function/charity-functions.php:171
+msgid "Blog"
+msgstr ""
+
+#: search.php:16
+msgid "Search results for: "
+msgstr ""

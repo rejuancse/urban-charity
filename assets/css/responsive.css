@@ -1,0 +1,2570 @@
+
+/* ==========================================================================
+responsive
+========================================================================== */
+
+@media (min-width: 980px) and (max-width: 1200px) { 
+  .common-menu .common-menu-wrap .nav>li>a {
+    font-size: 12px;
+    margin-left: 15px;
+  }
+  .common-menu-wrap .nav>li {
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px){
+  .admin-bar .header-borderimage #mobile-menu, 
+  .admin-bar .header-solid #mobile-menu {
+    top: 100%;
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+    overflow: hidden !important;
+  }
+  .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+  .visible-sm {
+    display: block!important;
+  }
+  .navbar-collapse {
+    padding-right: 0;
+    padding-left: 0
+  }
+  #mobile-menu ul {
+    padding: 0;
+  }
+  .header-borderimage #mobile-menu, 
+  .header-solid #mobile-menu {
+    top: 100%;
+  }
+  .navbar-toggle {
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .navbar-collapse.collapse.show {
+    display: block !important;
+  }
+  .navbar-collapse {
+    width: auto;
+    border-top: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  .navbar-toggle {
+    display: inline-block;
+    margin-top: 0;
+    padding: 0;
+    outline: none;
+    right: 0;
+    font-size: 15px;
+    padding-left: 15px;
+  }
+  .mobile-register {
+    text-align: right;
+  }
+  .navbar-nav {
+    float: none;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .main-menu-wrap .navbar-toggle {
+    color: #f8c218;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+  }
+ 
+
+}
+
+@media (max-width: 767px) {
+    #mobile-menu ul {
+        padding: 0;
+    }
+    .header-borderimage #mobile-menu, 
+    .header-solid #mobile-menu {
+        top: 100%;
+    }  
+    .crumbs .crumbs-title h2 {
+        font-size: 42px;
+    }
+    .comment-list li.comment ol.children {
+        margin-left: 0;
+    }
+    .comment-list li.comment ol.children ol.children {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .slicknav_icon:hover span.slicknav_icon-bar {
+        background: #f8c218;
+    }
+    .charity-search-wrap {
+        padding-left: 0px;
+    }
+    .top-search-input-wrap .search-wrap .search.charity-top-search {
+        width: 72%;
+    }
+
+}
+
+@media (min-width: 768px){
+  .navbar-nav {
+    float: none;
+    margin: 0;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+}
+
+@media (max-width: 489px) {
+
+}
+
+
+/* Medium Layout: 1367px. */
+
+@media only screen and (min-width: 1900px) and (max-width: 1920px) {
+    .reached-img-slider {
+        left: 55px;
+        top: 100px;
+    }
+
+    .reached-campaign-info {
+        padding-left: 70px;
+    }
+
+    .slider-area.slider_style_two {
+        min-height: 680px;
+    }
+
+    .about-style-one .section-bg-img {
+        position: absolute;
+        left: 0;
+        top: 15px;
+        display: block;
+    }
+
+    /*=============================================
+  *  Home Three
+  *=============================================*/
+    /*=============================================
+  *  Cooming Soon
+  *=============================================*/
+    .cooming-soon-area {
+        min-height: 1000px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1367px) {
+    .recent-causes-list .owl-nav div {
+        height: 45px;
+        width: 68px;
+        line-height: 48px;
+        font-size: 11px;
+    }
+    .recent-causes-list .owl-nav .owl-prev {
+        left: -80px;
+    }
+    .recent-causes-list .owl-nav .owl-next {
+        right: -80px;
+    }
+
+    .funfact-area .bhb-title {
+        font-size: 116px;
+        right: -321px;
+        bottom: 35px;
+    }
+
+    .slider-area.slider_style_two {
+        min-height: 680px;
+    }
+
+    /*=============================================
+  *  Home Three
+  *=============================================*/
+    /*=============================================
+  *  Cooming Soon
+  *=============================================*/
+    .cooming-soon-area {
+        padding-top: 50px;
+    }
+
+    .cmsn-btn-area {
+        margin-top: 80px;
+    }
+
+    .cooming-soon-inner .cooming-soon {
+        margin-top: 50px;
+    }
+
+    /*event single*/
+    .event-single-content .ev-dt-box {
+        margin-left: -15px;
+    }
+}
+
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .main-menu nav ul li ul.mega_menu {
+        width: 860px;
+    }
+
+    .header_style_four .main-menu nav ul li ul.mega_menu {
+        width: 753px;
+    }
+
+    .slider_style_one::after {
+        height: 22px;
+    }
+
+    .what-we-do,
+    .reached-area {
+        padding-bottom: 80px;
+    }
+
+    #carousel {
+        width: 823px;
+        height: 500px;
+        margin-bottom: 60px;
+    }
+
+    .reached-img-slider {
+        left: -85px;
+        top: 0px;
+    }
+
+    .section-title h2 {
+        color: #3a3a3a;
+        font-size: 29px;
+        line-height: 42px;
+    }
+
+    .up-gallery a {
+        display: inline-flex;
+    }
+
+    .meet-volunteer {
+        padding-bottom: 40px;
+    }
+
+    .letest-inner-wrapper {
+        display: block;
+    }
+
+    .lt-page-title-area .section-title {
+        min-width: 100%;
+    }
+
+    .lt-post-single {
+        margin-top: 20px;
+        width: auto;
+        display: inline-block;
+        /*margin-right: 20px;*/
+    }
+
+    .lt-page-title-area {
+        margin-bottom: 42px;
+    }
+
+    .recent-causes-list .owl-nav .owl-prev {
+        left: -75px;
+    }
+
+    .recent-causes-list .owl-nav .owl-next {
+        right: -75px;
+    }
+
+    .recent-causes-list .owl-nav>div {
+        width: 69px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 11px;
+    }
+
+    .funfact-area .bhb-title {
+        display: none;
+    }
+
+    /*=============================================
+  *  Home Two
+  *=============================================*/
+    .slider-area::after {
+        height: 23px;
+    }
+
+    .left-details h2 {
+        font-size: 34px;
+        line-height: 50px;
+    }
+
+    .dv-left-info h2 {
+        font-size: 37px;
+        line-height: 51px;
+    }
+
+    .on-school-details h4 {
+        font-size: 41px;
+    }
+
+    .slider_text_two h2 {
+        font-size: 63px;
+    }
+
+    /*=============================================
+  *  Home Three
+  *=============================================*/
+    /*=============================================
+  *  Home Four
+  *=============================================*/
+    .menu-right-nav ul li,
+    .menu-right-nav ul li a {
+        margin-left: 14px;
+    }
+
+    .slider_text_three .slider-text-inner h2 {
+        font-size: 55px;
+    }
+
+    /*=============================================
+  *  About Us
+  *=============================================*/
+    .crumbs .crumbs-title h2 {
+        font-size: 58px;
+        line-height: 49px;
+    }
+
+    /*=============================================
+  *  About Us Two
+  *=============================================*/
+    .whwd2-single-item {
+        padding: 46px 37px 43px;
+    }
+
+    .cooming-soon-area {
+        min-height: 650px;
+        padding-top: 70px;
+    }
+
+    /*=============================================
+  *  Event Single
+  *=============================================*/
+    .event-single-content h2.title a {
+        font-size: 25px;
+        line-height: 41px;
+    }
+
+    .event-single-content .meta h4 {
+        font-size: 27px;
+    }
+
+    .single-post .post-video iframe {
+        height: 334px;
+    }
+
+    /*=============================================
+  *  Shop Cart
+  *=============================================*/
+    .cart-action .coupon-code::before {
+        right: 15px;
+    }
+}
+
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /*=============================================
+  *  Home One
+  *=============================================*/
+    .hb_style_one,
+    .hb_style_one.navbar-fixed-top {
+        top: 0;
+        padding: 20px 0px;
+        position: relative;
+        background: #000;
+    }
+
+    .slider_style_one::after {
+        height: 19px;
+    }
+
+    .what-we-do,
+    .reached-area {
+        padding-bottom: 80px;
+    }
+
+    #carousel {
+        width: 723px;
+        height: 400px;
+        margin-bottom: 60px;
+    }
+
+    .reached-img-slider {
+        left: -85px;
+        top: 0px;
+    }
+
+    .recent-causes {
+        padding: 70px 0px 75px;
+        overflow: hidden;
+    }
+
+    .recent-causes-list .owl-nav .owl-prev {
+        left: -86px;
+    }
+
+    .recent-causes-list .owl-nav .owl-next {
+        right: -86px;
+    }
+
+    .recent-causes-list .owl-nav>div {
+        width: 82px;
+        height: 45px;
+        line-height: 45px;
+    }
+
+    .funfact-area .bhb-title {
+        display: none;
+    }
+
+    .funfact-area .fct-single-item span.counter,
+    .funfact-area .fct-single-item p {
+        font-size: 30px;
+    }
+
+    .funfact-area .fct-single-item p {
+        font-size: 14px;
+    }
+
+    .meet-volunteer {
+        padding-top: 70px;
+    }
+
+    .up-ev-wrap-container .events-list {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .up-ev-wrap-container .bcm-volunteer {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .glup-wraper-container {
+        display: block;
+    }
+
+    .up-gallery {
+        display: flex;
+        width: 100%;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .up-gallery a {
+        width: 33%;
+        display: inline-block;
+    }
+
+    .gallery-donate {
+        width: 100%;
+        margin-top: 30px;
+        padding: 0px;
+    }
+
+    .gl-dnt-info {
+        padding: 40px 0px;
+        padding-left: 60px;
+    }
+
+    .letest-inner-wrapper {
+        display: block;
+    }
+
+    .lt-page-title-area .section-title {
+        min-width: 100%;
+    }
+
+    .lt-post-single {
+        margin-top: 20px;
+        width: 50%;
+        float: left;
+    }
+
+    .lt-page-title-area {
+        margin-bottom: 42px;
+    }
+
+    .footer-area {
+        padding: 80px 0px 39px;
+    }
+
+    .letest-news {
+        padding-bottom: 80px;
+    }
+
+    /*=============================================
+  *  Home Two
+  *=============================================*/
+    .slider_text_two h2 {
+        font-size: 57px;
+    }
+
+    .slider-area::after {
+        height: 20px;
+    }
+
+    .right-side .controls {
+        text-align: left;
+    }
+
+    .right-side .controls .play,
+    .right-side .controls .pause {
+        left: 48px;
+    }
+
+    .charity-player-area .pl-title h3 {
+        font-size: 26px;
+        margin-top: 31px;
+    }
+
+    .about-style-one {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+
+    .left-details h2 {
+        font-size: 25px;
+        line-height: 36px;
+    }
+
+    .thumb-area {
+        display: inline-block;
+    }
+
+    .right-thumb .single-item {
+        text-align: center;
+    }
+
+    .devider-video {
+        height: 650px;
+        padding-top: 80px;
+    }
+
+    .next-thumb {
+        flex-basis: 212px;
+    }
+
+    .next-event-time .cdown {
+        padding: 15px 0px 20px;
+    }
+
+    .video-thumb-area {
+        display: inline-block;
+    }
+
+    .rs-video {
+        display: inline-block;
+        width: 40%;
+        float: left;
+    }
+
+    .rs-content {
+        width: 60%;
+        float: left;
+        padding-left: 40px;
+    }
+
+    .rs-content h4 {
+        margin-top: 0;
+    }
+
+    .on-school-details h4 {
+        font-size: 42px;
+        margin-bottom: 15px;
+    }
+
+    .h2-gallery-updates {
+        padding-bottom: 80px;
+    }
+
+    /*=============================================
+  *  Home Three
+  *=============================================*/
+    .slider_text_three {
+        margin-top: 190px;
+    }
+
+    .slider_text_three .slider-text-inner h2 {
+        font-size: 49px;
+    }
+
+    .slider_style_three {
+        height: 720px;
+    }
+
+    .uc-list h2 {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .uc-list p {
+        font-size: 13px;
+    }
+
+    .uc-list .uc-donate-btn a {
+        padding: 9px 27px;
+    }
+
+    .abt-two-content {
+        width: 284px;
+    }
+
+    .about-content h4 {
+        font-size: 21px;
+    }
+
+    .hover-info h4 {
+        font-size: 19px;
+    }
+
+    .hover-info .icon a {
+        font-size: 26px;
+        margin-top: 9px;
+    }
+
+    .h3-volunteer-area {
+        padding: 90px 0px;
+    }
+
+    .about-tow-title h2 {
+        font-size: 29px;
+    }
+
+    /*=============================================
+  *  Home Four
+  *=============================================*/
+    .menu-right-nav {
+        text-align: center;
+        margin-top: 37px;
+    }
+
+    .header_style_four {
+        height: 92px;
+    }
+
+    .offset-search-area {
+        left: 5%;
+        width: 90%;
+    }
+
+    .about-top-desc {
+        padding-bottom: 20px;
+    }
+
+    .about-style-two {
+        padding: 80px 0px;
+    }
+
+    .abt-h4-single-item {
+        margin-bottom: 60px;
+    }
+
+    .h4-up-ev-wrap {
+        display: block;
+    }
+
+    .h4-up-ev-wrap .reached-campaign-info {
+        margin-bottom: 60px;
+    }
+
+    .bcm-vl-info {
+        padding: 40px;
+    }
+
+    .crumbs {
+        margin-top: 0;
+    }
+
+    /*=============================================
+  *  About Us Two
+  *=============================================*/
+    .wht-title h2 {
+        color: #3a3a3a;
+        font-size: 29px;
+    }
+
+    .whwd2-single-item {
+        margin-bottom: 40px;
+    }
+
+    .pricing-list .list-item {
+        margin-bottom: 70px;
+    }
+
+    .pricing-table {
+        padding-bottom: 40px;
+    }
+
+    .pricing-list .list-item {
+        display: inline-block;
+    }
+
+    .pricing-list {
+        text-align: center;
+    }
+
+    /*=============================================
+  *  causes One
+  *=============================================*/
+    /*=============================================
+  *  Cooming Soon
+  *=============================================*/
+    .cooming-soon-area {
+        height: auto;
+        display: block;
+        padding: 70px 0px;
+    }
+
+    .cooming-soon-inner h2 {
+        font-size: 44px;
+        line-height: 48px;
+        margin: 15px 0px 35px;
+    }
+
+    .cooming-soon-inner p {
+        font-size: 18px;
+    }
+
+    .cooming-soon-inner .cooming-soon #countup .part {
+        margin: 0px 8px 84px;
+    }
+
+    .cmsn-btn-area {
+        margin-top: 0px;
+    }
+    .cmsn-btn-area a {
+        margin-bottom: 15px;
+    }
+
+    /*=============================================
+  *  Event Grid
+  *=============================================*/
+    .event-grid-list .ev-grid-item .ev-content {
+        padding: 23px 17px;
+    }
+    .event-grid-list .ev-grid-item .ev-content h4 a {
+        font-size: 15px;
+    }
+
+    .event-grid-list .ev-grid-item:hover .ev-content {
+        padding-left: 17px;
+    }
+
+    /*=============================================
+  *  Event Single
+  *=============================================*/
+    .event-single-content .btn-area {
+        margin-top: 30px;
+    }
+
+    .event-single-content h2.title a {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .event-single-content p {
+        margin-top: 14px;
+    }
+
+    .event-single-content .meta h4 {
+        font-size: 28px;
+    }
+
+    /*=============================================
+  *  Blog CLassic
+  *=============================================*/
+    .single-post .post-video iframe {
+        height: 253px;
+    }
+
+    /*=============================================
+  *  Shop Cart
+  *=============================================*/
+    .cart-action .coupon-code::before {
+        right: 24px;
+        background-color: #f8c218;
+        display: none;
+    }
+
+    /*=============================================
+  *  Shop Details
+  *=============================================*/
+    .shop-item-thumb {
+        margin-bottom: 30px;
+    }
+    .my-account {
+        padding: 90px 0px;
+    }
+    .contact-us-area {
+        padding: 90px 0px;
+    }
+    .contact-info-right {
+        margin-top: 40px;
+    }
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    /*=============================================
+  *  Home One
+  *=============================================*/
+    .hb_style_one,
+    .hb_style_one.navbar-fixed-top {
+        top: 0;
+        padding: 0px 0px 20px;
+        position: relative;
+        background: #000;
+    }
+    .htop-contact {
+        margin-bottom: 12px;
+    }
+    .logo-wrapper h1 {
+        font-size: 22px;
+    }
+
+    /*=============================================
+  *  Home Three
+  *=============================================*/
+    .urgent-causes-row {
+        display: block;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    .abt-two-row {
+        display: block;
+    }
+
+    .about-content h4 {
+        font-size: 21px;
+    }
+
+    .hover-info h4 {
+        font-size: 19px;
+    }
+
+    .hover-info .icon a {
+        font-size: 26px;
+        margin-top: 9px;
+    }
+
+    /*=============================================
+  *  Portfolio Style Two
+  *=============================================*/
+    .portfolio-menu button {
+        margin-bottom: 12px;
+    }
+
+    .psingleitem {
+        text-align: center;
+    }
+
+    /*=============================================
+  *  Event Grid
+  *=============================================*/
+    .event-grid-list {
+        display: block;
+    }
+
+    .event-grid-list .ev-grid-item {
+        max-width: 366px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    /*=============================================
+  *  Home One
+  *=============================================*/
+    .slider_text_one .slider-text-inner h2 {
+        font-size: 57px;
+        line-height: 60px;
+        margin: 15px 0px 36px;
+    }
+
+    .header-top {
+        padding: 13px 0px;
+    }
+
+    .htop-contact ul li {
+        display: block;
+        text-align: center;
+    }
+
+    .htop-donate-lng {
+        display: block;
+        text-align: center;
+    }
+
+    .language a.lang_btn,
+    .htop-contact ul li,
+    .htop-contact ul li a {
+        margin-right: 0px;
+    }
+
+    .language {
+        margin: 10px 0px 10px;
+    }
+
+    .recent-causes-list .owl-nav {
+        display: none;
+    }
+
+    .gallery-updates .bg-cap {
+        display: none;
+    }
+
+    .slider_style_one::after {
+        height: 7px;
+    }
+
+    .big-title-banner h2 {
+        font-size: 33px;
+        line-height: 49px;
+    }
+
+    .big-title-banner {
+        margin-bottom: 40px;
+    }
+
+    .whd-list-item {
+        margin-bottom: 30px;
+    }
+
+    .what-we-do {
+        padding-bottom: 40px;
+    }
+
+    .reached-img-slider#carousel {
+        left: -80px;
+        top: 0;
+        height: 325px;
+        width: 585px;
+        margin-bottom: 60px;
+    }
+
+    .reached-area {
+        padding-bottom: 70px;
+    }
+
+    .section-title h2 {
+        font-size: 22px;
+        line-height: 34px;
+    }
+
+    .lt-page-title-area .section-title {
+        margin-bottom: 26px;
+        max-width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .funfact-area .bhb-title {
+        display: none;
+    }
+
+    .fct-single-item {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .funfact-area {
+        padding: 70px 0px 20px;
+        margin-bottom: 70px;
+    }
+
+    .funfact-area .fct-single-item span.counter,
+    .funfact-area .fct-single-item p {
+        font-size: 31px;
+    }
+
+    .funfact-area .fct-single-item p {
+        font-size: 15px;
+        margin-top: 2px;
+    }
+
+    .upcoming-events .section-title-head .section-title p {
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .up-ev-wrap-container {
+        display: block;
+    }
+
+    .up-ev-wrap-container .events-list {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 60px;
+    }
+
+    .up-ev-wrap-container .bcm-volunteer {
+        width: 100%;
+        padding: 40px 0px;
+    }
+
+    .bcm-vl-info h3 a {
+        font-size: 22px;
+        line-height: 33px;
+        margin: 4px 0px 8px;
+    }
+
+    .bcm-vl-info span {
+        font-size: 13px;
+        letter-spacing: 0;
+    }
+
+    .upcoming-events {
+        padding-bottom: 70px;
+    }
+
+    .upcoming-events .section-title-head {
+        margin-bottom: 40px;
+    }
+
+    .gallery-updates {
+        padding-top: 70px;
+        padding-bottom: 80px;
+    }
+
+    .glup-wraper-container,
+    .up-gallery {
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .up-gallery {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .up-gallery,
+    .gallery-donate {
+        width: 100%;
+        padding: 0;
+    }
+
+    .up-gallery a {
+        width: 47%;
+        display: inline-block;
+        position: relative;
+        margin-bottom: 5px;
+    }
+
+    .gl-dnt-inner h2 {
+        font-size: 29px;
+        line-height: 38px;
+    }
+
+    .gl-dnt-info {
+        padding-left: 40px;
+    }
+
+    .donate_form form#donate_form .form-inner {
+        margin: 40px 0px 30px;
+    }
+
+    .gl-dnt-info {
+        padding: 50px 0px 55px 40px;
+    }
+
+    .meet-volunteer {
+        padding: 70px 0px 20px;
+    }
+
+    .vl-single-item {
+        margin-bottom: 20px;
+    }
+
+    .testimonial {
+        height: auto;
+        display: block;
+        padding: 12px 0px;
+    }
+
+    .testimonial-row {
+        display: block;
+    }
+
+    .testimonial-item {
+        margin: 49px 0px;
+        border-top: 3px solid #f8c218;
+        padding-top: 40px;
+    }
+
+    .testimonial-item:first-child {
+        border-color: transparent;
+        margin-top: 10px;
+    }
+
+    .letest-inner-wrapper {
+        display: block;
+    }
+
+    .lt-page-title-area .section-title {
+        min-width: 100%;
+    }
+
+    .lt-post-single {
+        margin-top: 20px;
+        width: 50%;
+        float: left;
+    }
+
+    .lt-page-title-area {
+        margin-bottom: 42px;
+    }
+
+    .footer-area {
+        padding: 65px 0px 39px;
+    }
+
+    .footer-inner p.copyright {
+        margin-top: 40px;
+    }
+
+    .mt-volunteer-list {
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .letest-news {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    /*=============================================
+  *  Home Two
+  *=============================================*/
+    .header-middle {
+        height: auto;
+        display: block;
+        padding: 20px 0px;
+    }
+
+    .slider_text_two h2 {
+        font-size: 29px;
+    }
+
+    .slider_style_two {
+        display: block;
+        height: 100vh;
+        min-height: 543px;
+    }
+
+    .charity-player-area {
+        margin-top: 30px;
+        height: 250px;
+    }
+
+    .charity-player {
+        margin-top: 20px;
+    }
+
+    .right-side {
+        height: 92px;
+        margin-top: 10px;
+    }
+
+    .right-side .controls {
+        text-align: left;
+    }
+
+    .slider_text_two {
+        margin-top: 70px;
+    }
+
+    .slider-area::after {
+        height: 11px;
+        background-size: cover;
+    }
+
+    .about-style-one {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .left-details h2 {
+        font-size: 21px;
+        line-height: 32px;
+    }
+
+    .left-details {
+        text-align: center;
+    }
+
+    .left-details span.h-line {
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .section-title-head {
+        display: block;
+        text-align: center;
+    }
+
+    .all-causes-btn {
+        margin-top: 20px;
+    }
+
+    .devider-video {
+        padding-top: 50px;
+        height: 770px;
+        text-align: center;
+    }
+
+    .dv-left-info h2 {
+        font-size: 29px;
+        line-height: 39px;
+    }
+
+    .video-thumb-area {
+        margin-top: 40px;
+        display: inline-block;
+    }
+
+    .next-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .next-thumb,
+    .next-info {
+        flex-basis: calc(100% * (1/2));
+        flex-grow: 1;
+    }
+
+    .next-event-time {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .upv-container {
+        margin-top: 80px;
+    }
+
+    .h2-event-area .all-causes-btn {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .h2-event-area {
+        padding-bottom: 40px;
+    }
+
+    .online-school {
+        padding: 60px 0px;
+    }
+
+    .on-school-details h4 {
+        font-size: 30px;
+    }
+
+    .h2-gallery-updates {
+        padding: 60px 0px 0px;
+    }
+
+    .upv-container-two .section-title-head {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .upv-container-two .section-title-head p {
+        margin: auto;
+        margin-top: 6px;
+    }
+
+    .h2-gallery-updates .up-gallery a {
+        width: calc(100% * (1/2));
+        margin: 0;
+    }
+
+    .subscribe-area {
+        display: block;
+        padding: 50px 0px;
+    }
+
+    .subscribe-area h4 {
+        font-size: 25px;
+        margin: 0px 0px 25px;
+    }
+
+    .thumb-area {
+        display: inline-block;
+    }
+
+    .right-thumb .single-item {
+        text-align: center;
+    }
+
+    .rs-video {
+        display: inline-block;
+    }
+
+    .upv-container-two {
+        text-align: center;
+    }
+
+    .rs-content {
+        text-align: center;
+    }
+
+    /*=============================================
+  *  Home Three
+  *=============================================*/
+    .slider_text_three {
+        margin-top: 169px;
+    }
+
+    .slider_style_three {
+        height: 690px;
+    }
+
+    .about-tow-title h2 {
+        font-size: 29px;
+    }
+
+    .recent-causes-two {
+        padding-bottom: 30px;
+    }
+
+    .recent-causes-list-two {
+        text-align: center;
+    }
+
+    .recent-causes-list-two .rc-causes-item {
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+
+    .rc-causes-item.causes-style-two {
+        margin-bottom: 40px;
+    }
+
+    .h3-volunteer-area {
+        padding: 70px 0px;
+    }
+
+    .footer-two .widget {
+        margin-top: 40px;
+    }
+
+    /*=============================================
+  *  Home Four
+  *=============================================*/
+    .menu-right-nav {
+        text-align: left;
+    }
+
+    .header_style_four {
+        height: 92px;
+    }
+
+    .offset-nav-menu {
+        z-index: 9999;
+    }
+
+    .offset-close-area {
+        top: 0;
+    }
+
+    .offset-search-area {
+        left: 5%;
+        width: 90%;
+        height: auto;
+        padding: 60px 25px 40px;
+    }
+
+    .offset-search-area .search-form form input[type="text"] {
+        height: 50px;
+    }
+
+    .offset-search-area .search-form form input[type="submit"] {
+        height: 48px;
+    }
+
+    .offset-search-area .offset-close-btn {
+        left: calc(50% - 25px);
+        top: -25px;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+    }
+
+    .about-style-two {
+        padding: 60px 0px 70px;
+    }
+
+    .abt-h4-single-item {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .abt-h4-single-item .icon {
+        margin: auto;
+    }
+
+    .about-top-desc {
+        padding-bottom: 30px;
+    }
+
+    .h4-up-ev-wrap {
+        display: block;
+    }
+
+    .h4-up-ev-wrap .reached-campaign-info {
+        margin-bottom: 60px;
+    }
+
+    .bcm-vl-info {
+        padding: 40px;
+    }
+
+    .shop-list-item .single-item {
+        text-align: center;
+    }
+
+    .h4-letest-news {
+        padding: 10px 0px 80px;
+    }
+
+    .footer-two {
+        padding: 30px 0px 39px;
+    }
+
+    /*=============================================
+  *  About Us
+  *=============================================*/
+    .crumbs .crumbs-title h2 {
+        font-size: 35px;
+        line-height: 43px;
+    }
+
+    .crumbs ul.crumbs-list {
+        margin-top: 7px;
+    }
+
+    .header-crumbs {
+        height: 300px;
+    }
+
+    .abt-volunteer {
+        padding-bottom: 50px;
+    }
+
+    .parner-title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .parner-title h2 {
+        padding: 0;
+    }
+
+    .crumbs {
+        margin-top: 0;
+    }
+
+    /*=============================================
+  *  About Us Two
+  *=============================================*/
+    .upcoming-events-two.abt-2-upv {
+        margin-top: -83px;
+    }
+
+    .wht-title h2 {
+        font-size: 25px;
+        line-height: 41px;
+    }
+
+    .whwd2-single-item {
+        margin-bottom: 30px;
+    }
+
+    .pricing-list .list-item {
+        display: inline-block;
+    }
+
+    .pricing-list {
+        text-align: center;
+    }
+
+    .list-item {
+        margin-bottom: 60px;
+    }
+
+    .pricing-table {
+        padding-bottom: 40px;
+    }
+
+    /*=============================================
+  *  Causes Single
+  *=============================================*/
+    .causes-single {
+        padding-bottom: 30px;
+    }
+
+    /*=============================================
+  *  Portfolio Page
+  *=============================================*/
+    .portfolio-gallery .up-gallery {
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+    .portfolio-gallery .up-gallery a {
+        flex-basis: calc(100% * (1/2) - 10px);
+        margin-bottom: 20px;
+    }
+    .portfolio-gallery .up-gallery a:last-child {
+        margin-bottom: 0px;
+    }
+
+    /*=============================================
+  *  Cooming Soon
+  *=============================================*/
+    .cooming-soon-area {
+        height: auto;
+        display: block;
+        padding: 70px 0px;
+    }
+
+    .cooming-soon-inner h2 {
+        font-size: 35px;
+        line-height: 42px;
+        margin: 15px 0px 35px;
+    }
+
+    .cooming-soon-inner p {
+        font-size: 18px;
+    }
+
+    .cooming-soon-inner .cooming-soon #countup .part {
+        margin: 0px 8px 84px;
+    }
+
+    .cmsn-btn-area {
+        margin-top: 0px;
+    }
+    .cmsn-btn-area a {
+        margin-bottom: 15px;
+    }
+
+    /*=============================================
+  *  Event Single
+  *=============================================*/
+    .event-single-content .meta h4 {
+        font-size: 26px;
+    }
+
+    .event-single-content h2.title a {
+        font-size: 25px;
+        line-height: 34px;
+    }
+
+    .event-single-content p {
+        margin-top: 22px;
+    }
+
+    .event-single-content .btn-area {
+        text-align: left;
+        margin-top: 25px;
+    }
+
+    .sidebar {
+        max-width: 420px;
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    /*=============================================
+  *  Blog Classic
+  *=============================================*/
+    .single-post .post-video iframe {
+        height: 303px;
+    }
+
+    /*=============================================
+  *  Blog Classic
+  *=============================================*/
+    .ext-gallery {
+        text-align: center;
+    }
+    .ext-gallery a {
+        margin-bottom: 20px;
+    }
+
+    .comment-info-inner .author-thumb img {
+        height: 70px;
+        width: 70px;
+    }
+
+    ul.comment-children {
+        margin-left: 47px;
+    }
+
+    /*=============================================
+  *  Shop Cart
+  *=============================================*/
+    .cart-action .update-cart {
+        text-align: left;
+        margin-top: 15px;
+    }
+
+    .cart-action .coupon-code::before {
+        right: 5px;
+    }
+
+    .checkout-btn {
+        text-align: left;
+    }
+
+    /*=============================================
+  *  Shop Checkout
+  *=============================================*/
+    .ship-defferent {
+        margin-top: 40px;
+    }
+
+    /*=============================================
+  *  Shop Details
+  *=============================================*/
+    .shop-details-area {
+        padding-top: 80px;
+    }
+    .shop-details {
+        padding-top: 50px;
+    }
+    .shop-uantity-wrap a {
+        margin-left: 60px;
+    }
+    .shop-related {
+        padding-bottom: 60px;
+    }
+    /*=============================================
+  *  Shop Confirmation
+  *=============================================*/
+    .shop-confirmation {
+        padding: 80px 0px;
+    }
+    .my-account {
+        padding: 80px 0px;
+    }
+    .contact-us-area {
+        padding: 80px 0px;
+    }
+    .contact-info-right {
+        margin-top: 40px;
+    }
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+    /*=============================================
+  *  Home One
+  *=============================================*/
+    .slider_text_one .slider-text-inner h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .header-top {
+        padding: 13px 0px;
+    }
+
+    .htop-contact ul li {
+        display: block;
+        text-align: center;
+    }
+
+    .htop-donate-lng {
+        display: block;
+        text-align: center;
+    }
+
+    .language a.lang_btn,
+    .htop-contact ul li,
+    .htop-contact ul li a {
+        margin-right: 0px;
+    }
+
+    .language {
+        margin: 10px 0px 10px;
+    }
+
+    .recent-causes-list .owl-nav {
+        display: none;
+    }
+
+    .gallery-updates .bg-cap {
+        display: none;
+    }
+
+    .slider_style_one::after {
+        height: 7px;
+    }
+
+    .big-title-banner h2 {
+        font-size: 25px;
+        line-height: 34px;
+    }
+
+    .big-title-banner {
+        margin-bottom: 40px;
+    }
+
+    .whd-list-item {
+        margin-bottom: 20px;
+    }
+
+    .what-we-do {
+        padding-bottom: 0px;
+    }
+
+    .reached-img-slider {
+        left: -255px;
+        top: 0;
+    }
+
+    #carousel {
+        height: 260px;
+        margin-bottom: 0px;
+    }
+
+    .reached-campaign-info .section-title h2 {
+        line-height: 30px;
+        letter-spacing: 0;
+    }
+
+    .section-title h2 {
+        font-size: 23px;
+        line-height: 29px;
+    }
+
+    .reached-area {
+        padding-bottom: 60px;
+    }
+
+    .section-title-head {
+        display: block;
+    }
+
+    .section-title-head .section-title {
+        margin-bottom: 24px;
+    }
+
+    .funfact-area .bhb-title {
+        display: none;
+    }
+
+    .fct-single-item {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .funfact-area {
+        padding: 60px 0px 20px;
+    }
+
+    .funfact-area .fct-single-item span.counter,
+    .funfact-area .fct-single-item p {
+        font-size: 31px;
+    }
+
+    .funfact-area .fct-single-item p {
+        font-size: 15px;
+        margin-top: 2px;
+    }
+
+    .up-ev-wrap-container,
+    .ev-sbgm-row {
+        display: block;
+    }
+
+    .up-ev-wrap-container .events-list {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .ev-s-item {
+        width: 100%;
+        min-height: 213px;
+        margin-bottom: 20px;
+    }
+
+    .up-ev-wrap-container .bcm-volunteer {
+        width: 100%;
+        padding: 40px 0px;
+    }
+
+    .bcm-vl-info h3 a {
+        font-size: 22px;
+        line-height: 33px;
+        margin: 4px 0px 8px;
+    }
+
+    .bcm-vl-info span {
+        font-size: 13px;
+        letter-spacing: 0;
+    }
+
+    .upcoming-events {
+        padding-bottom: 60px;
+    }
+
+    .upcoming-events .section-title-head {
+        margin-bottom: 40px;
+    }
+
+    .gallery-updates {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .glup-wraper-container,
+    .up-gallery {
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .up-gallery {
+        text-align: center;
+    }
+
+    .up-gallery,
+    .gallery-donate {
+        width: 100%;
+        padding: 0;
+    }
+
+    .up-gallery a {
+        width: auto;
+        display: inline-block;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .gl-dnt-inner h2 {
+        font-size: 29px;
+        line-height: 38px;
+    }
+
+    .gl-dnt-info {
+        padding-left: 40px;
+    }
+
+    .donate_form form#donate_form .form-inner {
+        margin: 40px 0px 30px;
+    }
+
+    .gl-dnt-info {
+        padding: 40px 0px 40px 40px;
+    }
+
+    .meet-volunteer {
+        padding: 60px 0px 10px;
+    }
+
+    .vl-single-item {
+        margin-bottom: 20px;
+    }
+
+    .testimonial {
+        height: auto;
+        display: block;
+        padding: 12px 0px;
+    }
+
+    .testimonial-row {
+        display: block;
+    }
+
+    .testimonial-item {
+        margin: 49px 0px;
+        border-top: 3px solid #f8c218;
+        padding-top: 40px;
+    }
+
+    .testimonial-item:first-child {
+        border-color: transparent;
+        margin-top: 10px;
+    }
+
+    .letest-inner-wrapper {
+        display: block;
+    }
+
+    .lt-post-single {
+        margin-top: 20px;
+    }
+
+    .lt-page-title-area {
+        margin-bottom: 42px;
+    }
+
+    .footer-area {
+        padding: 60px 0px 39px;
+    }
+
+    .footer-inner p.copyright {
+        margin-top: 40px;
+    }
+
+    .mt-volunteer-list {
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .letest-news {
+        padding-top: 60px;
+    }
+
+    /*=============================================
+  *  Home Two
+  *=============================================*/
+    .header-middle {
+        height: auto;
+        display: block;
+        padding: 20px 0px;
+    }
+
+    .slider_text_two h2 {
+        font-size: 29px;
+    }
+
+    .slider_style_two {
+        display: block;
+        height: 100vh;
+        min-height: 543px;
+    }
+
+    .charity-player-area {
+        margin-top: 30px;
+        height: 314px;
+    }
+
+    .charity-player {
+        margin-top: 20px;
+    }
+
+    .charity-player .player {
+        display: block;
+        height: 322px;
+    }
+
+    .right-side {
+        height: 92px;
+        margin-top: 10px;
+    }
+
+    .right-side .controls {
+        text-align: left;
+    }
+
+    .slider_text_two {
+        margin-top: 30px;
+    }
+
+    .slider-area::after {
+        height: 11px;
+        background-size: cover;
+    }
+
+    .about-style-one {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .left-details h2 {
+        font-size: 21px;
+        line-height: 32px;
+    }
+
+    .devider-video {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .dv-left-info h2 {
+        font-size: 29px;
+        line-height: 39px;
+    }
+
+    .video-thumb-area {
+        margin-top: 40px;
+    }
+
+    .next-content {
+        display: block;
+    }
+
+    .next-info {
+        padding-left: 0;
+        margin: 20px 0px 30px;
+    }
+
+    .next-event-time {
+        padding-left: 0;
+    }
+
+    .upv-container {
+        margin-top: 80px;
+    }
+
+    .h2-event-area .all-causes-btn {
+        text-align: left;
+        margin-bottom: 60px;
+    }
+
+    .h2-event-area {
+        padding-bottom: 40px;
+    }
+
+    .online-school {
+        padding: 60px 0px;
+    }
+
+    .on-school-details h4 {
+        font-size: 30px;
+    }
+
+    .h2-gallery-updates {
+        padding: 60px 0px 40px;
+    }
+
+    .upv-container-two .section-title-head {
+        margin-bottom: 40px;
+    }
+
+    .h2-gallery-updates .up-gallery a {
+        width: 100%;
+    }
+
+    .subscribe-area {
+        display: block;
+        padding: 50px 0px;
+    }
+
+    .subscribe-area h4 {
+        font-size: 25px;
+        margin: 0px 0px 25px;
+    }
+
+    /*=============================================
+  *  Home Three
+  *=============================================*/
+    .slider_text_three {
+        margin-top: 153px;
+        padding-left: 15px;
+    }
+
+    .slider_text_three .slider-text-inner span {
+        font-size: 12px;
+    }
+
+    .slider_text_three .slider-text-inner h2 {
+        font-size: 33px;
+        margin: 5px 0px 14px;
+    }
+
+    .slider_text_three .slider-text-inner h5 {
+        font-size: 15px;
+    }
+
+    .slider_style_three {
+        height: 663px;
+    }
+
+    .uc-list {
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
+    }
+
+    .about-tow-title h2 {
+        font-size: 25px;
+    }
+
+    .about-style-two {
+        padding: 50px 0px 70px;
+    }
+
+    .abt-two-row-carousel .owl-nav {
+        top: -17px;
+    }
+
+    .abt-two-content {
+        position: relative;
+        display: block;
+    }
+
+    .abt-two-content {
+        padding: 20px 20px 65px;
+        width: 100%;
+    }
+
+    .abt-two-item .right-thumb .single-item {
+        margin-bottom: 30px;
+    }
+
+    .upv-contain-rwo-two {
+        display: block;
+    }
+
+    .upv-left-thumb {
+        height: 200px;
+    }
+
+    .h3-volunteer-wrap {
+        padding: 40px 15px 50px;
+    }
+
+    .h3-volunteer-area {
+        padding: 70px 0px;
+    }
+
+    .h3-volunteer-wrap h2 {
+        font-size: 23px;
+    }
+
+    .footer-two {
+        padding: 10px 0px 39px;
+    }
+    .footer-two .widget {
+        margin-top: 40px;
+    }
+
+    /*=============================================
+  *  Home Four
+  *=============================================*/
+    .offset-menu {
+        padding-top: 0;
+    }
+
+    .header_style_four {
+        position: relative;
+        height: 111px;
+    }
+    .header_style_four .menu-right-nav {
+        text-align: center;
+        margin: 23px -15px 42px;
+    }
+    .header_style_four .slicknav_menu {
+        text-align: center;
+    }
+    .header_style_four .slicknav_menu a.slicknav_btn {
+        top: -35px;
+        margin-top: 18px;
+    }
+
+    .offset-search-area {
+        left: 5%;
+        width: 90%;
+        height: auto;
+        padding: 60px 25px 40px;
+    }
+
+    .offset-search-area .search-form form input[type="text"] {
+        height: 50px;
+    }
+
+    .offset-search-area .search-form form input[type="submit"] {
+        height: 48px;
+    }
+
+    .offset-search-area .offset-close-btn {
+        left: calc(50% - 25px);
+        top: -25px;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+    }
+
+    .offset-nav-menu {
+        z-index: 9999;
+        width: 99%;
+    }
+
+    .offset-close-area {
+        top: 0;
+    }
+
+    .header_style_four .logo {
+        margin: 0px -15px;
+        margin-top: 19px;
+    }
+
+    .abt-h4-title h2 {
+        font-size: 24px;
+        line-height: 41px;
+    }
+
+    .abt-h4-single-item {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .abt-h4-single-item .icon {
+        margin: auto;
+    }
+
+    .h4-up-ev-wrap {
+        display: block;
+    }
+    .h4-up-ev-wrap .reached-campaign-info h4 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .h4-up-ev-wrap .reached-campaign-info .section-title {
+        margin: -7px 0px 13px;
+    }
+    .h4-up-ev-wrap .donate-authors {
+        display: block;
+    }
+    .h4-up-ev-wrap .donate-authors .auth-address {
+        margin-top: 14px;
+    }
+    .h4-up-ev-wrap .about-top-desc {
+        padding-bottom: 15px;
+    }
+    .h4-up-ev-wrap .reached-campaign-info {
+        margin-bottom: 40px;
+    }
+    .h4-up-ev-wrap .reached-campaign-info .btn-area {
+        margin-right: 7px;
+    }
+    .h4-up-ev-wrap .reached-campaign-info .btn-area a {
+        padding: 8px 19px;
+    }
+    .h4-up-ev-wrap .bcm-vl-info {
+        padding: 40px;
+    }
+
+    .shop-area {
+        padding: 70px 0px 50px;
+    }
+
+    .h4-letest-news {
+        padding-top: 20px;
+    }
+
+    .about-style-two .about-top-desc {
+        padding-bottom: 20px;
+    }
+
+    /*=============================================
+  *  About Us
+  *=============================================*/
+    .crumbs .crumbs-title h2 {
+        font-size: 35px;
+        line-height: 43px;
+    }
+
+    .crumbs ul.crumbs-list {
+        margin-top: 7px;
+    }
+
+    .header-crumbs {
+        height: 250px;
+    }
+
+    .abt-volunteer {
+        padding-bottom: 50px;
+    }
+
+    .parner-title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .parner-title h2 {
+        padding: 0;
+    }
+
+    .crumbs {
+        margin-top: 0;
+    }
+
+    /*=============================================
+  *  About Us Two
+  *=============================================*/
+    .upcoming-events-two.abt-2-upv {
+        margin-top: -55px;
+    }
+
+    .wht-title h2 {
+        font-size: 23px;
+        line-height: 37px;
+    }
+
+    .whwd2-single-item {
+        margin-bottom: 30px;
+    }
+
+    .pricing-list .list-item {
+        margin-bottom: 50px;
+    }
+
+    .pricing-table {
+        padding-bottom: 40px;
+    }
+
+    .pricing-list .list-item .prc-thumb img {
+        width: 100%;
+    }
+
+    /*=============================================
+  *  Causes Single
+  *=============================================*/
+    .causes-single {
+        padding: 50px 0px 40px;
+    }
+
+    .causes-single-meta ul {
+        margin-bottom: 25px;
+    }
+    .causes-single-meta ul li {
+        display: block;
+        font-size: 13px;
+    }
+
+    /*=============================================
+  *  Portfolio Page
+  *=============================================*/
+    .portfolio-gallery .up-gallery {
+        width: 100%;
+        padding-right: 0;
+        display: block;
+    }
+    .portfolio-gallery .up-gallery a {
+        flex-basis: 100%;
+    }
+    .portfolio-gallery .up-gallery a:last-child {
+        margin-bottom: 0px;
+    }
+
+    /*=============================================
+  *  Cooming Soon
+  *=============================================*/
+    .cooming-soon-area {
+        height: auto;
+        display: block;
+        padding: 70px 0px;
+    }
+
+    .cooming-soon-inner h2 {
+        font-size: 35px;
+        line-height: 42px;
+        margin: 15px 0px 35px;
+    }
+
+    .cooming-soon-inner p {
+        font-size: 18px;
+    }
+
+    .cooming-soon-inner .cooming-soon #countup .part {
+        margin: 0px 8px 84px;
+    }
+
+    .cmsn-btn-area {
+        margin-top: 0px;
+    }
+    .cmsn-btn-area a {
+        margin-bottom: 15px;
+    }
+
+    /*=============================================
+  *  Event Single
+  *=============================================*/
+    .event-single-content .meta h4 {
+        font-size: 20px;
+    }
+
+    .event-single-content .meta p {
+        margin: 5px 0px 4px;
+    }
+
+    .event-single-content h2.title a {
+        font-size: 21px;
+    }
+
+    .event-single-content p {
+        margin-top: 17px;
+    }
+
+    .event-single-content .btn-area {
+        text-align: left;
+        margin-top: 25px;
+    }
+
+    .sidebar {
+        margin-top: 60px;
+    }
+
+    /*=============================================
+  *  Blog Classic
+  *=============================================*/
+    .single-post .post-video iframe {
+        height: auto;
+    }
+
+    /*=============================================
+  *  Blog Single
+  *=============================================*/
+    .ext-gallery a {
+        margin-bottom: 20px;
+    }
+
+    .blog-post-content .social-share-btn {
+        text-align: left;
+    }
+
+    .comment-info-inner .author-thumb img {
+        height: 60px;
+        width: 60px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .comment-details {
+        padding-right: 0;
+        margin-top: -3px;
+    }
+
+    .comment-info-inner .author-thumb {
+        margin-right: 18px;
+    }
+
+    .comment-reply {
+        top: -5px;
+    }
+
+    ul.comment-children {
+        margin-left: 18px;
+    }
+
+    .leave-comment {
+        margin-top: 40px;
+    }
+
+    /*=============================================
+  *  Shop Cart
+  *=============================================*/
+    .cart-action .coupon-code input[type="submit"] {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .cart-action .update-cart {
+        text-align: center;
+    }
+
+    .cart-cost-area ul {
+        padding: 16px 7px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .cart-cost-area ul li {
+        font-size: 15px;
+    }
+    .cart-cost-area ul li:first-child {
+        margin-right: 0px;
+    }
+
+    .checkout-btn {
+        text-align: center;
+    }
+
+    .cart-action .coupon-code::before {
+        display: none;
+    }
+
+    /*=============================================
+    *  Shop Details
+    *=============================================*/
+    .shop-details-area {
+        padding-top: 70px;
+    }
+    .shop-details {
+        padding-top: 50px;
+    }
+    .shop-uantity-wrap .product-uantity .cart-plus-minus-box {
+        margin: 0px 7px;
+    }
+    .shop-uantity-wrap a {
+        margin-left: 10px;
+        width: 150px;
+    }
+    .shop-description ul {
+        margin-bottom: 20px;
+    }
+    .shop-description ul li {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .shop-related {
+        padding-bottom: 50px;
+    }
+    /*=============================================
+    *  Shop Confirmation
+    *=============================================*/
+    .shop-confirmation {
+        padding: 70px 0px;
+    }
+    .shp-conf-inner h2 {
+        line-height: 32px;
+    }
+    /*=============================================
+    *  My Account
+    *=============================================*/
+    .cart-information-bar{
+        display: block;
+    }
+    .cart-information-bar a {
+        margin-left: 23px;
+    }
+    .my-account {
+        padding: 70px 0px;
+    }
+    .reset-bottom a{
+        margin-bottom: 10px;
+    }
+    .contact-us-area {
+        padding: 70px 0px;
+    }
+    .contact-info-right {
+        margin-top: 40px;
+    }
+    .contact-info-inner ul {
+        width: 100%;
+        margin-top: 31px;
+    }
+
+}
