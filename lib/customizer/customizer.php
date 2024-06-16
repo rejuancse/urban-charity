@@ -193,6 +193,8 @@ class THM_Customize
 {
 	public $google_fonts = array();
 
+	public $options;
+
 	function __construct( $options ) {
 		$this->options = $options;
 
@@ -299,9 +301,9 @@ $urban_charity_panel_to_section = array(
 				array(
 					'settings' 		=> 'topbar_enable',
 			      	'label' 		=> __( 'Enable Topbar', 'urban-charity' ),
-		
+
 			      	'section'  		=> 'default_controls_section',
-			      	'priority' 		=> 10, 
+			      	'priority' 		=> 10,
 			      	'type'			=> 'checkbox',
 			   	),
 				array(
@@ -317,7 +319,7 @@ $urban_charity_panel_to_section = array(
 					'type'     => 'text',
 					'priority' => 10,
 					'default'  => '+00 44 123 456 78910',
-				),				
+				),
 				array(
 					'settings' => 'topbar_color',
 					'label'    => esc_html__( 'Topbar BG color', 'urban-charity' ),
@@ -346,8 +348,8 @@ $urban_charity_panel_to_section = array(
 					'label'    => esc_html__( 'Donate Button Text', 'urban-charity' ),
 					'type'     => 'text',
 					'priority' => 10,
-					'default'  => 'Donate Button', 
-				),	
+					'default'  => 'Donate Button',
+				),
 				array(
 					'settings' => 'donate_button_url',
 					'label'    => esc_html__( 'Donate Button URL', 'urban-charity' ),
@@ -413,7 +415,7 @@ $urban_charity_panel_to_section = array(
 					'settings' 		=> 'header_fixed',
 				  	'label' 		=> esc_html__( 'Sticky Header', 'urban-charity' ),
 				  	'section'  		=> 'sticky_controls_section',
-				  	'priority' 		=> 10, 
+				  	'priority' 		=> 10,
 				  	'type'			=> 'checkbox',
 				),
 				array(
@@ -427,14 +429,14 @@ $urban_charity_panel_to_section = array(
 					'settings' 		=> 'header_search',
 				  	'label' 		=> esc_html__( 'Header Search', 'urban-charity' ),
 				  	'section'  		=> 'search_controls_section',
-				  	'priority' 		=> 10, 
+				  	'priority' 		=> 10,
 				  	'type'			=> 'checkbox',
 				  	'default'  		=> true,
 				),
-				
+
 			)//fields
 		),//header_setting
-		
+
 		# Subheader Setting.
 		array(
 			'id'              => 'sub_header_banner',
@@ -448,7 +450,7 @@ $urban_charity_panel_to_section = array(
 					'settings' 		=> 'enable_sub_header',
 				  	'label' 		=> esc_html__( 'Header Search', 'urban-charity' ),
 				  	'section'  		=> 'subheader_controls_section',
-				  	'priority' 		=> 10, 
+				  	'priority' 		=> 10,
 				  	'type'			=> 'checkbox',
 				),
 				array(
@@ -1206,7 +1208,7 @@ $urban_charity_panel_to_section = array(
 					'settings' 		=> 'blog_sidebar',
 				  	'label' 		=> esc_html__( 'Enable Blog Sidebar', 'urban-charity' ),
 				  	'section'  		=> 'sidebar_controls_section',
-				  	'priority' 		=> 10, 
+				  	'priority' 		=> 10,
 				  	'type'			=> 'checkbox',
 				  	'default'  => 'true',
 				),
@@ -1227,7 +1229,7 @@ $urban_charity_panel_to_section = array(
 					'settings' 		=> 'blog_date',
 				  	'label' 		=> esc_html__( 'Enable Blog Date', 'urban-charity' ),
 				  	'section'  		=> 'date_controls_section',
-				  	'priority' 		=> 10, 
+				  	'priority' 		=> 10,
 				  	'type'			=> 'checkbox',
 				  	'default'  => 'true',
 				),
@@ -1235,7 +1237,7 @@ $urban_charity_panel_to_section = array(
 					'settings' 		=> 'blog_author',
 				  	'label' 		=> esc_html__( 'Enable Blog Author', 'urban-charity' ),
 				  	'section'  		=> 'author_controls_section',
-				  	'priority' 		=> 10, 
+				  	'priority' 		=> 10,
 				  	'type'			=> 'checkbox',
 				  	'default'  => 'true',
 				),
@@ -1244,10 +1246,10 @@ $urban_charity_panel_to_section = array(
 					'settings' 		=> 'blog_category',
 				  	'label' 		=> esc_html__( 'Enable Blog Category', 'urban-charity' ),
 				  	'section'  		=> 'category_controls_section',
-				  	'priority' 		=> 10, 
+				  	'priority' 		=> 10,
 				  	'type'			=> 'checkbox',
 				  	'default'  => 'true',
-				),				
+				),
 				array(
 					'settings' => 'blog_post_text_limit',
 					'label'    => esc_html__( 'Post character Limit', 'urban-charity' ),
@@ -1259,7 +1261,7 @@ $urban_charity_panel_to_section = array(
 					'settings' 		=> 'blog_continue_en',
 				  	'label' 		=> esc_html__( 'Enable Blog Readmore', 'urban-charity' ),
 				  	'section'  		=> 'blog_en_controls_section',
-				  	'priority' 		=> 10, 
+				  	'priority' 		=> 10,
 				  	'type'			=> 'checkbox',
 				  	'default'  => 'true',
 				),
@@ -1273,7 +1275,7 @@ $urban_charity_panel_to_section = array(
 				),
 			)//fields
 		),//blog_setting
-		
+
 		array(
 			'id'              => 'footer_setting',
 			'title'           => esc_html__( 'Footer Setting', 'urban-charity' ),
@@ -1307,14 +1309,14 @@ $urban_charity_panel_to_section = array(
 					'type'     => 'number',
 					'priority' => 10,
 					'default'  => 25,
-				),	
+				),
 				array(
 					'settings' => 'copyright_padding_bottom',
 					'label'    => esc_html__( 'Copyright Bottom Padding', 'urban-charity' ),
 					'type'     => 'number',
 					'priority' => 10,
 					'default'  => 25,
-				),					
+				),
 				array(
 					'settings' => 'copyright_text',
 					'label'    => esc_html__( 'Copyright Text', 'urban-charity' ),

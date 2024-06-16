@@ -49,6 +49,7 @@ class Urban_Charity_Theme {
         wp_enqueue_media();
         wp_enqueue_style( 'bootstrap.min', URBAN_CHARITY_CSS . 'bootstrap.min.css',false,'all');
         wp_enqueue_style( 'font-awesome.min', URBAN_CHARITY_CSS . 'font-awesome.min.css',false,'all');
+        wp_enqueue_style( 'urban-charity-woo', URBAN_CHARITY_CSS . 'woocommerce.css',false,'all');
         wp_enqueue_style( 'urban-charity-main', URBAN_CHARITY_CSS . 'main.css',false,'all');
         wp_enqueue_style( 'urban-charity-responsive', URBAN_CHARITY_CSS . 'responsive.css',false,'all');
         wp_enqueue_style( 'urban-charity-style',get_stylesheet_uri());
@@ -75,8 +76,6 @@ class Urban_Charity_Theme {
 
         return $classes;
     }
-
 }
-
 new Urban_Charity_Theme();
 

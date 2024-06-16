@@ -1,12 +1,10 @@
 === Urban Charity ===
 Contributors: rejuancse
-Theme URI: https://demo.rejuandev.live/
-Author URI: https://rejuandev.live/
 Tags: blog, news, charity, ngo, crowdfunding, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, theme-options, threaded-comments, translation-ready
 Requires at least: 4.9
 Tested up to: 5.7
 Requires PHP: 5.6
-Stable tag: 2.0.5
+Stable tag: 2.0.7
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
@@ -67,6 +65,15 @@ the directory of the stable readme.txt, so in this case, ` https://themes.svn.wo
 
 == Changelog ==
 
+= 2.0.7 [16/06/2024] =
+* Added: Deprecated property issue updated
+* Fixed: CSS issue
+
+= 2.0.6 [21/02/2022] =
+* Added: WooCommerce file update
+* Added: Theme URI and Author URI
+* Fixed: CSS issue
+
 = 2.0.5 [24/05/2021] =
 * Fixed: Customizer design reflect issue
 * Fixed: Theme Latest version issue
@@ -86,12 +93,12 @@ the directory of the stable readme.txt, so in this case, ` https://themes.svn.wo
 = 2.0.1 [20/02/2021] =
 * Fixed: The skip link in single view
 * Fixed: Search modal focus inside
-* Fixed: The same for the mobile menu 
+* Fixed: The same for the mobile menu
 
 = 1.0.9 [30/01/2021] =
 * Fixed: Skip Link
 * Fixed: Keyboard navigation
-* Fixed: Content link 
+* Fixed: Content link
 
 = 1.0.8 [15/01/2021] =
 * Fixed: Content of the posts issue
@@ -108,11 +115,11 @@ the directory of the stable readme.txt, so in this case, ` https://themes.svn.wo
 
 = 1.0.5 [13/11/2020] =
 * Fixed: Skip Link issue
-* Fixed: Screenshots issue 
+* Fixed: Screenshots issue
 * Fixed: Sub menus keyboard navigation issue
 * Fixed: Unit test data
 * Fixed: Escape function issue
-* Fixed: Remove google plus icon 
+* Fixed: Remove google plus icon
 * Fixed: Enable logo
 * Fixed: Prefix function issue
 

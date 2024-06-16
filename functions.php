@@ -42,3 +42,11 @@ include( get_parent_theme_file_path('lib/Charity_Comments.php') );
 
 // Comments Callback Function
 include( get_parent_theme_file_path('lib/charity-comments.php') );
+
+/*-------------------------------------------*
+ * WooCommerce Support
+ *-------------------------------------------*/
+function charity_woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
+add_action( 'after_setup_theme', 'charity_woocommerce_support' );

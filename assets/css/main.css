@@ -394,7 +394,7 @@ mark {
   100% {
     transform: translateY(0px); } }
 /*----------------------------
-  11. Background overlay 
+  11. Background overlay
 ---------------------------------*/
 [data__overlay] {
   position: relative; }
@@ -449,7 +449,7 @@ mark {
   opacity: 1; }
 
 /*---------------------------------
-  12. Background Black Overlay 
+  12. Background Black Overlay
 ---------------------------------*/
 [data--black__overlay] {
   position: relative; }
@@ -809,7 +809,7 @@ textarea:focus {
   padding-bottom: 190px; }
 
 /*------------------------------
-  19. Page section padding 
+  19. Page section padding
 -------------------------------*/
 .ptb--0 {
   padding: 0; }
@@ -875,7 +875,7 @@ textarea:focus {
   padding: 200px 0; }
 
 /*---------------------------
-  20. Page section margin 
+  20. Page section margin
 -----------------------------*/
 .mtb--0 {
   margin: 0; }
@@ -1031,7 +1031,7 @@ input:-ms-input-placeholder {
 input:-moz-placeholder {
   /*Firefox 18*/
   color: #dbd0d0 !important;
-  opacity: 1; 
+  opacity: 1;
 }
 
 
@@ -1210,8 +1210,8 @@ input:-moz-placeholder {
     opacity: 0;
 }
 .common-menu-wrap .nav>li:hover>ul,
-.common-menu-wrap .nav>li:hover > ul, 
-.common-menu-wrap .nav>li:focus > ul, 
+.common-menu-wrap .nav>li:hover > ul,
+.common-menu-wrap .nav>li:focus > ul,
 .common-menu-wrap .nav>li.focus > ul {
     right: 0;
     opacity: 1;
@@ -1222,7 +1222,7 @@ input:-moz-placeholder {
     padding: 10px 0;
     display: block;
     -webkit-animation: menuslide 300ms;
-    animation: menuslide 300ms; 
+    animation: menuslide 300ms;
 }
 @keyframes menuslide {
   from {
@@ -1828,6 +1828,10 @@ input:-moz-placeholder {
     transform: scaleY(1);
 }
 
+.htop-donate-btn ul {
+  list-style: none;
+}
+
 .htop-donate-btn a {
     font-size: 11px;
     text-transform: uppercase;
@@ -1842,10 +1846,6 @@ input:-moz-placeholder {
 .htop-donate-btn a:hover {
     background-color: #cea527;
 }
-
-
-
-
 
 /*footer area*/
 
@@ -3098,8 +3098,6 @@ header .slicknav_menu .slicknav_nav li.slicknav_parent ul {
 /*=============================================
 *  25. Contact Us
 *=============================================*/
-.contact-us-area{}
-.write-us{}
 .write-us p{
     font-size: 14px;
     font-weight: 400;
@@ -3107,7 +3105,6 @@ header .slicknav_menu .slicknav_nav li.slicknav_parent ul {
     margin-bottom: 40px;
     margin-top: 20px;
 }
-.write-us form{}
 .write-us form input,
 .write-us form textarea{
         height: 60px;
@@ -3140,7 +3137,6 @@ header .slicknav_menu .slicknav_nav li.slicknav_parent ul {
 .write-us form button:hover{
     background-color: #f8c218;
 }
-.contact-info-right{}
 .contact-info-right >p{
     font-size: 14px;
     font-weight: 400;
@@ -3148,7 +3144,6 @@ header .slicknav_menu .slicknav_nav li.slicknav_parent ul {
     margin-bottom: 40px;
     margin-top: 20px;
 }
-.contact-info-inner{}
 .contact-info-inner ul{
     width: 50%;
     float: left;
@@ -3185,7 +3180,6 @@ header .slicknav_menu .slicknav_nav li.slicknav_parent ul {
 .footer-inner .text-wrap p {
     color: #fff;
 }
-
 .featured-wrap-link, .featured-wrap-quite {
     background: #f8c218;
     padding: 40px 30px;
@@ -3250,9 +3244,6 @@ header .slicknav_menu .slicknav_nav li.slicknav_parent ul {
 .single-post .post-thumbnail {
     margin-bottom: 30px;
 }
-
-
-
 .blog-classic.ptb--70 {
     padding: 0;
 }
@@ -3340,7 +3331,7 @@ input[type=text], input[type=email], input[type=password], input[type="submit"] 
 }
 .sidebar .wp-calendar-table tr td {
     color: #000000;
-} 
+}
 .wp-calendar-table tr th {
     color: #f8c22f;
 }

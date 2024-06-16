@@ -2,7 +2,7 @@
 Theme Name: Urban Charity
 Author: Rejuan Ahamed
 Description: Urban Charity is clean, creative, powerful, flexible, highly customizable and Gutenberg ready WordPress theme. It is fully responsive and is sure to make your website stand out from the crowd. Urban Charity is a multipurpose theme suitable for any type of WordPress sites such as Charity, NGO, Fundraising, Welfare, Donation, Helping Hands, Non-profit Organization and preferably ideal for any type of sites. Urban Charity is highly customizable with powerful theme options including multiple Header and Footer layouts. Compatibility for WordPress Classic editor, WooCommerce and Gutenburg makes easier for users. Want a theme to play your site in a myriad of roles your search ends here.
-Version: 2.0.5
+Version: 2.0.7
 Requires at least: 4.9
 Tested up to: 5.7
 Requires PHP: 5.6
@@ -36,38 +36,6 @@ input[type="search"]:focus, input[type="text"]:focus {
 li > ul, li > ol {
     padding-left: 20px;
     line-height: 30px;
-}
-/* Accessibility */
-.skip-link.screen-reader-text {
-    transform: translateY(-100%);
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #f1f1f1;
-    border-radius: 3px;
-    box-shadow: 0 0 2px 2px rgb(0 0 0 / 60%);
-    clip: auto !important;
-    -webkit-clip-path: none;
-    clip-path: none;
-    color: #21759b;
-    display: block;
-    font-size: 0.875rem;
-    font-weight: 700;
-    height: auto;
-    line-height: normal;
-    padding: 15px 23px 14px;
-    text-decoration: none;
-    width: auto;
-    z-index: 100000;
-}
-.screen-reader-text:focus {
-    transform: none;
-    top: 5px;
-    left: 5px;
-    color: #f8c218;
-    text-decoration: underline 1px dotted #f8c218 !important;
-    outline: none;
-    border: 1px solid #f1f1f1;
 }
 #content[tabindex="-1"]:focus {
     outline: 0;
@@ -150,9 +118,9 @@ h2.bordered {
     position: relative;
     z-index: 1;
 }
-h2.bordered span { 
-    background: #fff; 
-    padding: 0 25px; 
+h2.bordered span {
+    background: #fff;
+    padding: 0 25px;
 }
 h2.bordered:before {
     border-top: 1px solid #dfdfdf;
@@ -183,7 +151,7 @@ h2.bordered:before {
   color: #fff;
 }
 .post-meta-info-list-in{
-  margin: 40px 0 20px;  
+  margin: 40px 0 20px;
 }
 .tab-rewards-wrapper {
     margin-bottom: 30px;
@@ -238,8 +206,8 @@ button#search-submit {
     border-color: #f8c218;
 }
 .post-comment-area .comment-form-comment textarea,
-.comment-form-author input[type=text], 
-.comment-form-email input[type=email], 
+.comment-form-author input[type=text],
+.comment-form-email input[type=email],
 .comment-form-url input[type=url] {
     resize: none;
     background: transparent;
@@ -256,8 +224,8 @@ button#search-submit {
 
 
 .post-comment-area .comment-form-comment textarea:focus,
-.comment-form-author input[type=text]:focus, 
-.comment-form-email input[type=email]:focus, 
+.comment-form-author input[type=text]:focus,
+.comment-form-email input[type=email]:focus,
 .comment-form-url input[type=url]:focus {
     background: transparent;
     border: 1px solid #f8c218;
@@ -371,67 +339,48 @@ input[type=checkbox]:checked:disabled + label:before {
 .comment-body .comment-author.vcard a time {
     font-size: 15px;
 }
-.comment-list .comment-metadata .comment-reply a.comment-reply-link:hover, 
+.comment-list .comment-metadata .comment-reply a.comment-reply-link:hover,
 .comments-area h3 small a:hover {
     color: #f8c218;
 }
 
 /* Comments */
-.comments-area {margin: 10px 0;} 
+.comments-area {margin: 10px 0;}
 .comments-area h3 {
     margin:30px 0 0px 0;
     font-size:24px;
-} 
-.comment-list { list-style:none; margin:0 0 1em; padding:0; text-indent:0; } 
-.comment-list li { } 
-.comment-list li.alt { } 
-.comment-list li.bypostauthor {} 
-.comment-list li.byuser {} 
-.comment-list li.comment-author-admin {} 
-.comment-list li.comment { 
+}
+.comment-list { list-style:none; margin:0 0 1em; padding:0; text-indent:0; }
+.comment-list li.comment {
     border-bottom: 1px solid #ddd;
     padding: 0;
     margin-bottom: 20px;
     list-style: none;
-} 
+}
 .comment-list li.comment ol.children li {
     padding: 20px;
 }
 .comment-list li.comment ol.children li .comment-body .comment-content {
     margin: 26px 0 0;
 }
-.comment-list li div.comment-author {} 
-.comment-list li div.vcard { font-size:20px;} 
-.comment-list li div.vcard cite.fn { font-style:normal; } 
-.comment-list li div.vcard cite.fn a.url {} 
-.comment-list li div.vcard img.avatar {float:left; margin:0 1em 1em 0; } 
-.comment-list li div.vcard img.avatar-32 {} 
-.comment-list li div.vcard img.photo {} 
-.comment-list li div.vcard span.says {} 
-.comment-list li div.commentmetadata {} 
-.comment-list li div.comment-meta { font-size:9px; margin-bottom: 10px;} 
-.comment-list li div.comment-meta a { color: #aaa; } 
-.comment-list li p { margin: 0; font-size: 15px;} 
-.comment-list li ul { list-style:square; margin:0 0 1em 2em; } 
-.comment-list li div.reply { font-size:11px; } 
-.comment-list li div.reply a { font-weight:bold; } 
-.comment-list li ul.children { list-style:none; margin:1em 0 0; text-indent:0; } 
-.comment-list li ul.children li {} 
-.comment-list li ul.children li.alt {} 
-.comment-list li ul.children li.bypostauthor {} 
-.comment-list li ul.children li.byuser {} 
-.comment-list li ul.children li.comment {} 
-.comment-list li ul.children li.comment-author-admin {} 
-.comment-list li ul.children li.depth-2 { margin:0 0 .25em .25em; } 
-.comment-list li ul.children li.depth-3 { margin:0 0 .25em .25em; } 
-.comment-list li ul.children li.depth-4 { margin:0 0 .25em .25em; } 
-.comment-list li ul.children li.depth-5 {} 
-.comment-list li ul.children li.odd {} 
-.comment-list li.even { background:#fff; } 
-.comment-list li.odd { 
+.comment-list li div.vcard { font-size:20px;}
+.comment-list li div.vcard cite.fn { font-style:normal; }
+.comment-list li div.vcard img.avatar {float:left; margin:0 1em 1em 0; }
+.comment-list li div.comment-meta { font-size:9px; margin-bottom: 10px;}
+.comment-list li div.comment-meta a { color: #aaa; }
+.comment-list li p { margin: 0; font-size: 15px;}
+.comment-list li ul { list-style:square; margin:0 0 1em 2em; }
+.comment-list li div.reply { font-size:11px; }
+.comment-list li div.reply a { font-weight:bold; }
+.comment-list li ul.children { list-style:none; margin:1em 0 0; text-indent:0; }
+.comment-list li ul.children li.depth-2 { margin:0 0 .25em .25em; }
+.comment-list li ul.children li.depth-3 { margin:0 0 .25em .25em; }
+.comment-list li ul.children li.depth-4 { margin:0 0 .25em .25em; }
+.comment-list li.even { background:#fff; }
+.comment-list li.odd {
     background: #f6f6f6;
     padding: 20px;
-} 
+}
 .comment-list li.odd .comment-body .comment-content {
     margin: 24px 0 24px;
 }
@@ -455,11 +404,7 @@ input[type=checkbox]:checked:disabled + label:before {
     margin: 32px 0 24px 0;
     font-size: 22px;
 }
-.comment-list li.parent { } 
-.comment-list li.pingback { margin: 0 0 10px; padding: 1em; border: 1px dashed #ccc; } 
-.comment-list li.thread-alt { } 
-.comment-list li.thread-even { } 
-.comment-list li.thread-odd {} 
+.comment-list li.pingback { margin: 0 0 10px; padding: 1em; border: 1px dashed #ccc; }
 
 .wp-block-cover.has-background-dim.alignwide {
     margin-bottom: 10px;
@@ -491,13 +436,13 @@ input[type=checkbox]:checked:disabled + label:before {
 button#charity-navmenu {
     position: relative;
 }
-.charity-navmenu-button-open::before, 
+.charity-navmenu-button-open::before,
 .charity-navmenu-button-open::after {
     content: "";
     left: 0;
 }
-.charity-navmenu-button-open, 
-.charity-navmenu-button-open::before, 
+.charity-navmenu-button-open,
+.charity-navmenu-button-open::before,
 .charity-navmenu-button-open::after {
     position: absolute;
     width: 24px;
@@ -566,67 +511,6 @@ button#charity-navmenu {
 .widget_search input[type="submit"] {
     display: none;
 }
-
 .widget_search label {
     width: 100%;
-}
-
-
-.woocommerce-loop-product__title {
-    line-height: normal;
-}
-.products li a.button:hover {
-    color: #fff !important;
-}
-.sidebar .woocommerce .screen-reader-text, .woocommerce-product-search button{
-    display: none;
-}
-.woocommerce input.search-field {
-    -webkit-appearance: none;
-    padding: 8px 12px;
-    display: block;
-    width: 100%;
-    padding: .5rem .75rem;
-    font-size: 1rem;
-    line-height: 1.25;
-    color: #464a4c;
-    background-color: #fff;
-    background-image: none;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: .25rem;
-    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-}
-/*.quantity .screen-reader-text {
-    transform: inherit;
-    position: inherit !important;
-    top: 0;
-    left: 0;
-    background-color: inherit;
-    border-radius: 3px;
-    box-shadow: inherit;
-    clip: auto !important;
-    -webkit-clip-path: none;
-    clip-path: none;
-    color: #21759b;
-    display: block;
-    font-size: 0.875rem;
-    font-weight: 700;
-    height: auto;
-    line-height: normal;
-    padding: 0px 0 15px;
-    text-decoration: none;
-    width: auto;
-    z-index: 100000;
-}*/
-.woocommerce .quantity .qty {
-    height: 36px;
-}
-.woocommerce .blog-post-meta{
-    display: none;
 }
