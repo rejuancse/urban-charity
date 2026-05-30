@@ -67,6 +67,7 @@ the directory of the stable readme.txt, so in this case, ` https://themes.svn.wo
 = 2.0.8 [31/05/2026] =
 * Fixed: Customizer script updated
 * Fixed: CSS issue
+* Removed: WooCommerce file Removed
 
 = 2.0.7 [16/06/2024] =
 * Added: Deprecated property issue updated

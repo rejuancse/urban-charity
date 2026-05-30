@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-05-30T17:49:29+00:00\n"
+"POT-Creation-Date: 2026-05-30T18:05:04+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: urban-charity\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #. Description of the theme
 #: style.css
-msgid "Urban Charity is clean, creative, powerful, flexible, highly customizable and Gutenberg ready WordPress theme. It is fully responsive and is sure to make your website stand out from the crowd. Urban Charity is a multipurpose theme suitable for any type of WordPress sites such as Charity, NGO, Fundraising, Welfare, Donation, Helping Hands, Non-profit Organization and preferably ideal for any type of sites. Urban Charity is highly customizable with powerful theme options including multiple Header and Footer layouts. Compatibility for WordPress Classic editor, WooCommerce and Gutenburg makes easier for users. Want a theme to play your site in a myriad of roles your search ends here."
+msgid "Urban Charity is a responsive, Gutenberg-ready WordPress theme for charities, NGOs, fundraising, donations, and non-profit websites."
 msgstr ""
 
 #. Author of the theme
@@ -1348,4 +1348,125 @@ msgstr ""
 
 #: search.php:17
 msgid "Search results for: "
+msgstr ""
+
+#: woocommerce/cart/cart.php:35
+#: woocommerce/cart/cart.php:67
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:36
+#: woocommerce/cart/cart.php:82
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:37
+#: woocommerce/cart/cart.php:88
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:38
+#: woocommerce/cart/cart.php:105
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:77
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:122
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:122
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:122
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:127
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:24
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:28
+msgid "Billing details"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:54
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:28
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:55
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:32
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:35
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:37
+msgid "My account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:43
+#: woocommerce/checkout/thankyou.php:85
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:48
+msgid "Order number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:53
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:59
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:65
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:71
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/content-product.php:52
+msgid "Loves"
+msgstr ""
+
+#: woocommerce/content-product.php:69
+msgid "Funds Raised"
+msgstr ""
+
+#: woocommerce/content-product.php:74
+msgid "Goal"
+msgstr ""
+
+#: woocommerce/content-product.php:78
+msgid "More Details"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:50
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce/single-product/related.php:18
+msgid "Related Products"
 msgstr ""

@@ -50,3 +50,11 @@ include( get_parent_theme_file_path('lib/charity-comments.php') );
  * Initialize Customizer
  *------------------------------------------*/
 new THM_Customize( array() );
+
+/*-------------------------------------------*
+ * WooCommerce Support
+ *-------------------------------------------*/
+function charity_woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
+add_action( 'after_setup_theme', 'charity_woocommerce_support' );
