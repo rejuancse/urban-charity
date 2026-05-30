@@ -7,9 +7,12 @@ define( 'URBAN_CHARITY_URI', trailingslashit(get_template_directory_uri()) );
 /*-------------------------------------------*
  *              Register Navigation
  *------------------------------------------*/
-register_nav_menus( array(
-    'primary' => esc_html__( 'Primary Menu', 'urban-charity' ),
-) );
+function urban_charity_register_nav_menus() {
+    register_nav_menus( array(
+        'primary' => esc_html__( 'Primary Menu', 'urban-charity' ),
+    ) );
+}
+add_action( 'after_setup_theme', 'urban_charity_register_nav_menus' );
 
 /* -------------------------------------------
 *           	Include TGM Plugins
@@ -44,9 +47,6 @@ include( get_parent_theme_file_path('lib/Charity_Comments.php') );
 include( get_parent_theme_file_path('lib/charity-comments.php') );
 
 /*-------------------------------------------*
- * WooCommerce Support
- *-------------------------------------------*/
-function charity_woocommerce_support() {
-    add_theme_support( 'woocommerce' );
-}
-add_action( 'after_setup_theme', 'charity_woocommerce_support' );
+ * Initialize Customizer
+ *------------------------------------------*/
+new THM_Customize( array() );

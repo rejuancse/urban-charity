@@ -20,7 +20,7 @@ class Urban_Charity_Theme {
     public function __construct() {
         add_filter( 'body_class', array($this, 'urban_charity_body_class'));
         add_action('wp_enqueue_scripts', array($this, 'urban_charity_style'));
-        add_action('after_setup_theme', array($this, 'urban_charity_setup'));
+        add_action('after_setup_theme', array($this, 'urban_charity_setup'), 5);
     }
 
     public function urban_charity_setup(){
@@ -77,5 +77,5 @@ class Urban_Charity_Theme {
         return $classes;
     }
 }
-new Urban_Charity_Theme();
 
+new Urban_Charity_Theme();

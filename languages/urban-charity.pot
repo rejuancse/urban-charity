@@ -1,0 +1,1351 @@
+# Copyright (C) 2026 Rejuan Ahamed
+# This file is distributed under the GNU General Public License v3.0 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Urban Charity 2.0.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/urban-charity\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-05-30T17:49:29+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: urban-charity\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Urban Charity"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Urban Charity is clean, creative, powerful, flexible, highly customizable and Gutenberg ready WordPress theme. It is fully responsive and is sure to make your website stand out from the crowd. Urban Charity is a multipurpose theme suitable for any type of WordPress sites such as Charity, NGO, Fundraising, Welfare, Donation, Helping Hands, Non-profit Organization and preferably ideal for any type of sites. Urban Charity is highly customizable with powerful theme options including multiple Header and Footer layouts. Compatibility for WordPress Classic editor, WooCommerce and Gutenburg makes easier for users. Want a theme to play your site in a myriad of roles your search ends here."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Rejuan Ahamed"
+msgstr ""
+
+#. Template Name of the theme
+msgid "404 Page Template"
+msgstr ""
+
+#: 404.php:8
+#: search.php:37
+msgid "Page Not Found - Lost Maybe?"
+msgstr ""
+
+#: 404.php:9
+#: search.php:38
+msgid "The page you are looking for was moved, removed, renamed or might never existed..."
+msgstr ""
+
+#: 404.php:10
+#: lib/customizer/customizer.php:1200
+#: search.php:39
+msgid "Go Back Home"
+msgstr ""
+
+#: 404.php:18
+#: search.php:39
+msgid "HOME"
+msgstr ""
+
+#: comments.php:25
+msgid "Comment List"
+msgstr ""
+
+#: comments.php:27
+msgid "Leave a comment"
+msgstr ""
+
+#. translators: %s: post title
+#: comments.php:32
+#, php-format
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:36
+#, php-format
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:81
+#: comments.php:89
+#: comments.php:95
+msgid "Comments"
+msgstr ""
+
+#: comments.php:88
+msgid "Previous"
+msgstr ""
+
+#: comments.php:94
+msgid "Next"
+msgstr ""
+
+#: comments.php:116
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:12
+msgid "Primary Menu"
+msgstr ""
+
+#: header.php:23
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:86
+msgid "Search . . . . ."
+msgstr ""
+
+#. translators: 1: comment date, 2: comment time
+#: lib/Charity_Comments.php:44
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: lib/Charity_Comments.php:50
+msgid "Edit"
+msgstr ""
+
+#: lib/Charity_Comments.php:74
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: lib/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: lib/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: lib/class-tgm-plugin-activation.php:334
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: lib/class-tgm-plugin-activation.php:340
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: lib/class-tgm-plugin-activation.php:346
+#, php-format
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: lib/class-tgm-plugin-activation.php:352
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: lib/class-tgm-plugin-activation.php:358
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: lib/class-tgm-plugin-activation.php:364
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:386
+#: lib/class-tgm-plugin-activation.php:827
+#: lib/class-tgm-plugin-activation.php:2533
+#: lib/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:387
+#: lib/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:388
+#: lib/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:392
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: lib/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:934
+#: lib/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:1121
+#: lib/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: lib/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: lib/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: lib/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: lib/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: lib/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: lib/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: lib/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: lib/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: lib/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: lib/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: lib/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:3509
+#: lib/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:3509
+#: lib/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: lib/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: lib/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/customizer/customizer.php:76
+msgid "Success! Your theme data successfully imported. Page will be reloaded within 2 sec."
+msgstr ""
+
+#: lib/customizer/customizer.php:77
+msgid "Error! Your theme data importing failed."
+msgstr ""
+
+#: lib/customizer/customizer.php:78
+msgid "Error! Please upload a file."
+msgstr ""
+
+#: lib/customizer/customizer.php:293
+msgid "Urban Charity Options"
+msgstr ""
+
+#: lib/customizer/customizer.php:294
+msgid "Urban Charity Theme Options"
+msgstr ""
+
+#: lib/customizer/customizer.php:301
+#: lib/customizer/customizer.php:302
+msgid "Topbar Settings"
+msgstr ""
+
+#: lib/customizer/customizer.php:307
+msgid "Enable Topbar"
+msgstr ""
+
+#: lib/customizer/customizer.php:315
+msgid "Topbar Email"
+msgstr ""
+
+#: lib/customizer/customizer.php:322
+msgid "Topbar Phone Number"
+msgstr ""
+
+#: lib/customizer/customizer.php:329
+msgid "Topbar BG color"
+msgstr ""
+
+#: lib/customizer/customizer.php:336
+msgid "Topbar Text/Link Color"
+msgstr ""
+
+#: lib/customizer/customizer.php:343
+msgid "Topbar Link Hover color"
+msgstr ""
+
+#: lib/customizer/customizer.php:352
+msgid "Donate Button Text"
+msgstr ""
+
+#: lib/customizer/customizer.php:359
+msgid "Donate Button URL"
+msgstr ""
+
+#: lib/customizer/customizer.php:366
+msgid "Donate BG color"
+msgstr ""
+
+#: lib/customizer/customizer.php:373
+msgid "Donate Hover BG color"
+msgstr ""
+
+#: lib/customizer/customizer.php:380
+msgid "Donate Text Color"
+msgstr ""
+
+#: lib/customizer/customizer.php:392
+#: lib/customizer/customizer.php:393
+msgid "Header Settings"
+msgstr ""
+
+#: lib/customizer/customizer.php:399
+msgid "Header background Color"
+msgstr ""
+
+#: lib/customizer/customizer.php:406
+msgid "Header Top Padding"
+msgstr ""
+
+#: lib/customizer/customizer.php:413
+msgid "Header Bottom Padding"
+msgstr ""
+
+#: lib/customizer/customizer.php:420
+msgid "Sticky Header"
+msgstr ""
+
+#: lib/customizer/customizer.php:427
+msgid "Sticky background Color"
+msgstr ""
+
+#: lib/customizer/customizer.php:434
+#: lib/customizer/customizer.php:455
+msgid "Header Search"
+msgstr ""
+
+#: lib/customizer/customizer.php:447
+msgid "Sub Header Banner"
+msgstr ""
+
+#: lib/customizer/customizer.php:448
+msgid "sub header banner"
+msgstr ""
+
+#: lib/customizer/customizer.php:462
+msgid "Sub-Header Background Image"
+msgstr ""
+
+#: lib/customizer/customizer.php:468
+msgid "Sub-Header BG Color"
+msgstr ""
+
+#: lib/customizer/customizer.php:477
+msgid "Sub-Header Padding Top"
+msgstr ""
+
+#: lib/customizer/customizer.php:484
+msgid "Sub-Header Padding Bottom"
+msgstr ""
+
+#: lib/customizer/customizer.php:491
+msgid "Sub-Header Margin Bottom"
+msgstr ""
+
+#: lib/customizer/customizer.php:498
+msgid "Title Settings"
+msgstr ""
+
+#: lib/customizer/customizer.php:504
+msgid "Header Title Font Size"
+msgstr ""
+
+#: lib/customizer/customizer.php:511
+msgid "Header Title Color"
+msgstr ""
+
+#: lib/customizer/customizer.php:521
+#: lib/customizer/customizer.php:522
+msgid "Typography Setting"
+msgstr ""
+
+#: lib/customizer/customizer.php:529
+msgid "Body Font Options"
+msgstr ""
+
+#: lib/customizer/customizer.php:536
+#: lib/customizer/customizer.php:591
+msgid "Select Google Font"
+msgstr ""
+
+#: lib/customizer/customizer.php:546
+msgid "Body Font Size"
+msgstr ""
+
+#: lib/customizer/customizer.php:552
+msgid "Body Font Line Height"
+msgstr ""
+
+#: lib/customizer/customizer.php:558
+msgid "Body Font Weight"
+msgstr ""
+
+#: lib/customizer/customizer.php:563
+#: lib/customizer/customizer.php:618
+#: lib/customizer/customizer.php:667
+#: lib/customizer/customizer.php:723
+#: lib/customizer/customizer.php:779
+#: lib/customizer/customizer.php:835
+#: lib/customizer/customizer.php:892
+msgid "Select"
+msgstr ""
+
+#: lib/customizer/customizer.php:564
+#: lib/customizer/customizer.php:619
+#: lib/customizer/customizer.php:668
+#: lib/customizer/customizer.php:724
+#: lib/customizer/customizer.php:780
+#: lib/customizer/customizer.php:836
+#: lib/customizer/customizer.php:893
+msgid "100"
+msgstr ""
+
+#: lib/customizer/customizer.php:565
+#: lib/customizer/customizer.php:620
+#: lib/customizer/customizer.php:669
+#: lib/customizer/customizer.php:725
+#: lib/customizer/customizer.php:781
+#: lib/customizer/customizer.php:837
+#: lib/customizer/customizer.php:894
+msgid "200"
+msgstr ""
+
+#: lib/customizer/customizer.php:566
+#: lib/customizer/customizer.php:621
+#: lib/customizer/customizer.php:670
+#: lib/customizer/customizer.php:726
+#: lib/customizer/customizer.php:782
+#: lib/customizer/customizer.php:838
+#: lib/customizer/customizer.php:895
+msgid "300"
+msgstr ""
+
+#: lib/customizer/customizer.php:567
+#: lib/customizer/customizer.php:622
+#: lib/customizer/customizer.php:671
+#: lib/customizer/customizer.php:727
+#: lib/customizer/customizer.php:783
+#: lib/customizer/customizer.php:839
+#: lib/customizer/customizer.php:896
+msgid "400"
+msgstr ""
+
+#: lib/customizer/customizer.php:568
+#: lib/customizer/customizer.php:623
+#: lib/customizer/customizer.php:672
+#: lib/customizer/customizer.php:728
+#: lib/customizer/customizer.php:784
+#: lib/customizer/customizer.php:840
+#: lib/customizer/customizer.php:897
+msgid "500"
+msgstr ""
+
+#: lib/customizer/customizer.php:569
+#: lib/customizer/customizer.php:624
+#: lib/customizer/customizer.php:673
+#: lib/customizer/customizer.php:729
+#: lib/customizer/customizer.php:785
+#: lib/customizer/customizer.php:841
+#: lib/customizer/customizer.php:898
+msgid "600"
+msgstr ""
+
+#: lib/customizer/customizer.php:570
+#: lib/customizer/customizer.php:625
+#: lib/customizer/customizer.php:674
+#: lib/customizer/customizer.php:730
+#: lib/customizer/customizer.php:786
+#: lib/customizer/customizer.php:842
+#: lib/customizer/customizer.php:899
+msgid "700"
+msgstr ""
+
+#: lib/customizer/customizer.php:571
+#: lib/customizer/customizer.php:626
+#: lib/customizer/customizer.php:675
+#: lib/customizer/customizer.php:731
+#: lib/customizer/customizer.php:787
+#: lib/customizer/customizer.php:843
+#: lib/customizer/customizer.php:900
+msgid "800"
+msgstr ""
+
+#: lib/customizer/customizer.php:572
+#: lib/customizer/customizer.php:627
+#: lib/customizer/customizer.php:676
+#: lib/customizer/customizer.php:732
+#: lib/customizer/customizer.php:788
+#: lib/customizer/customizer.php:844
+#: lib/customizer/customizer.php:901
+msgid "900"
+msgstr ""
+
+#: lib/customizer/customizer.php:577
+msgid "Body Font Color"
+msgstr ""
+
+#: lib/customizer/customizer.php:584
+msgid "Menu Font Options"
+msgstr ""
+
+#: lib/customizer/customizer.php:601
+msgid "Menu Font Size"
+msgstr ""
+
+#: lib/customizer/customizer.php:607
+msgid "Menu Font Line Height"
+msgstr ""
+
+#: lib/customizer/customizer.php:613
+msgid "Menu Font Weight"
+msgstr ""
+
+#: lib/customizer/customizer.php:633
+msgid "Heading 1 Font Options"
+msgstr ""
+
+#: lib/customizer/customizer.php:640
+#: lib/customizer/customizer.php:696
+#: lib/customizer/customizer.php:752
+msgid "Google Font"
+msgstr ""
+
+#: lib/customizer/customizer.php:650
+#: lib/customizer/customizer.php:706
+#: lib/customizer/customizer.php:762
+msgid "Font Size"
+msgstr ""
+
+#: lib/customizer/customizer.php:656
+#: lib/customizer/customizer.php:712
+#: lib/customizer/customizer.php:768
+msgid "Font Line Height"
+msgstr ""
+
+#: lib/customizer/customizer.php:662
+#: lib/customizer/customizer.php:718
+#: lib/customizer/customizer.php:774
+msgid "Font Weight"
+msgstr ""
+
+#: lib/customizer/customizer.php:681
+#: lib/customizer/customizer.php:737
+#: lib/customizer/customizer.php:793
+msgid "Font Color"
+msgstr ""
+
+#: lib/customizer/customizer.php:689
+msgid "Heading 2 Font Options"
+msgstr ""
+
+#: lib/customizer/customizer.php:745
+msgid "Heading 3 Font Options"
+msgstr ""
+
+#: lib/customizer/customizer.php:801
+msgid "Heading 4 Font Options"
+msgstr ""
+
+#: lib/customizer/customizer.php:808
+msgid "Heading4 Google Font"
+msgstr ""
+
+#: lib/customizer/customizer.php:818
+msgid "Heading4 Font Size"
+msgstr ""
+
+#: lib/customizer/customizer.php:824
+msgid "Heading4 Font Line Height"
+msgstr ""
+
+#: lib/customizer/customizer.php:830
+msgid "Heading4 Font Weight"
+msgstr ""
+
+#: lib/customizer/customizer.php:849
+msgid "Heading4 Font Color"
+msgstr ""
+
+#: lib/customizer/customizer.php:857
+msgid "Heading 5 Font Options"
+msgstr ""
+
+#: lib/customizer/customizer.php:865
+msgid "Heading5 Google Font"
+msgstr ""
+
+#: lib/customizer/customizer.php:875
+msgid "Heading5 Font Size"
+msgstr ""
+
+#: lib/customizer/customizer.php:881
+msgid "Heading5 Font Line Height"
+msgstr ""
+
+#: lib/customizer/customizer.php:887
+msgid "Heading5 Font Weight"
+msgstr ""
+
+#: lib/customizer/customizer.php:906
+msgid "Heading5 Font Color"
+msgstr ""
+
+#: lib/customizer/customizer.php:917
+#: lib/customizer/customizer.php:918
+msgid "Layout & Styling"
+msgstr ""
+
+#: lib/customizer/customizer.php:924
+msgid "Select BoxWidth of FullWidth"
+msgstr ""
+
+#: lib/customizer/customizer.php:929
+msgid "BoxWidth"
+msgstr ""
+
+#: lib/customizer/customizer.php:930
+msgid "FullWidth"
+msgstr ""
+
+#: lib/customizer/customizer.php:936
+msgid "Body Background Color"
+msgstr ""
+
+#: lib/customizer/customizer.php:943
+msgid "Body Background Image"
+msgstr ""
+
+#: lib/customizer/customizer.php:949
+msgid "Body Background Attachment"
+msgstr ""
+
+#: lib/customizer/customizer.php:954
+msgid "Scroll"
+msgstr ""
+
+#: lib/customizer/customizer.php:955
+msgid "Fixed"
+msgstr ""
+
+#: lib/customizer/customizer.php:956
+msgid "Inherit"
+msgstr ""
+
+#: lib/customizer/customizer.php:961
+msgid "Body Background Repeat"
+msgstr ""
+
+#: lib/customizer/customizer.php:966
+msgid "Repeat"
+msgstr ""
+
+#: lib/customizer/customizer.php:967
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: lib/customizer/customizer.php:968
+msgid "Repeat Vertically"
+msgstr ""
+
+#: lib/customizer/customizer.php:969
+msgid "No Repeat"
+msgstr ""
+
+#: lib/customizer/customizer.php:974
+msgid "Body Background Size"
+msgstr ""
+
+#: lib/customizer/customizer.php:979
+msgid "Cover"
+msgstr ""
+
+#: lib/customizer/customizer.php:980
+msgid "Contain"
+msgstr ""
+
+#: lib/customizer/customizer.php:985
+msgid "Body Background Position"
+msgstr ""
+
+#: lib/customizer/customizer.php:990
+msgid "left top"
+msgstr ""
+
+#: lib/customizer/customizer.php:991
+msgid "left center"
+msgstr ""
+
+#: lib/customizer/customizer.php:992
+msgid "left bottom"
+msgstr ""
+
+#: lib/customizer/customizer.php:993
+msgid "right top"
+msgstr ""
+
+#: lib/customizer/customizer.php:994
+msgid "right center"
+msgstr ""
+
+#: lib/customizer/customizer.php:995
+msgid "right bottom"
+msgstr ""
+
+#: lib/customizer/customizer.php:996
+msgid "center top"
+msgstr ""
+
+#: lib/customizer/customizer.php:997
+msgid "center center"
+msgstr ""
+
+#: lib/customizer/customizer.php:998
+msgid "center bottom"
+msgstr ""
+
+#: lib/customizer/customizer.php:1003
+msgid "Major Color"
+msgstr ""
+
+#: lib/customizer/customizer.php:1010
+msgid "Hover Color"
+msgstr ""
+
+#: lib/customizer/customizer.php:1019
+msgid "Menu Color Settings"
+msgstr ""
+
+#: lib/customizer/customizer.php:1025
+#: lib/customizer/customizer.php:1062
+msgid "Text Color"
+msgstr ""
+
+#: lib/customizer/customizer.php:1033
+#: lib/customizer/customizer.php:1069
+msgid "Hover Text Color"
+msgstr ""
+
+#: lib/customizer/customizer.php:1041
+msgid "Active Text Color"
+msgstr ""
+
+#: lib/customizer/customizer.php:1049
+msgid "Sub-Menu Color Settings"
+msgstr ""
+
+#: lib/customizer/customizer.php:1055
+msgid "Background Color"
+msgstr ""
+
+#: lib/customizer/customizer.php:1080
+#: lib/customizer/customizer.php:1081
+msgid "Social Media"
+msgstr ""
+
+#: lib/customizer/customizer.php:1087
+msgid "Add Facebook URL"
+msgstr ""
+
+#: lib/customizer/customizer.php:1094
+msgid "Add Twitter URL"
+msgstr ""
+
+#: lib/customizer/customizer.php:1101
+msgid "Add Pinterest URL"
+msgstr ""
+
+#: lib/customizer/customizer.php:1108
+msgid "Add Youtube URL"
+msgstr ""
+
+#: lib/customizer/customizer.php:1115
+msgid "Add Linkedin URL"
+msgstr ""
+
+#: lib/customizer/customizer.php:1122
+msgid "Linkedin Username( For Share )"
+msgstr ""
+
+#: lib/customizer/customizer.php:1130
+msgid "Add Instagram URL"
+msgstr ""
+
+#: lib/customizer/customizer.php:1137
+msgid "Add Dribbble URL"
+msgstr ""
+
+#: lib/customizer/customizer.php:1144
+msgid "Add Behance URL"
+msgstr ""
+
+#: lib/customizer/customizer.php:1151
+msgid "Add Flickr URL"
+msgstr ""
+
+#: lib/customizer/customizer.php:1158
+msgid "Add Vk URL"
+msgstr ""
+
+#: lib/customizer/customizer.php:1165
+msgid "Add Skype URL"
+msgstr ""
+
+#: lib/customizer/customizer.php:1175
+msgid "404 Page"
+msgstr ""
+
+#: lib/customizer/customizer.php:1176
+msgid "404 page background and text settings"
+msgstr ""
+
+#: lib/customizer/customizer.php:1183
+msgid "404 Page Title"
+msgstr ""
+
+#: lib/customizer/customizer.php:1186
+msgid "Page Not Found - Lost Maybe?."
+msgstr ""
+
+#: lib/customizer/customizer.php:1190
+msgid "404 Page Description"
+msgstr ""
+
+#: lib/customizer/customizer.php:1193
+msgid "The page you are looking for was moved, removed, renamed or might never existed.."
+msgstr ""
+
+#: lib/customizer/customizer.php:1197
+msgid "404 Button Text"
+msgstr ""
+
+#: lib/customizer/customizer.php:1207
+#: lib/customizer/customizer.php:1208
+msgid "Blog Setting"
+msgstr ""
+
+#: lib/customizer/customizer.php:1214
+msgid "Enable Blog Sidebar"
+msgstr ""
+
+#: lib/customizer/customizer.php:1222
+msgid "Select Blog Column"
+msgstr ""
+
+#: lib/customizer/customizer.php:1227
+msgid "Column 1"
+msgstr ""
+
+#: lib/customizer/customizer.php:1228
+msgid "Column 2"
+msgstr ""
+
+#: lib/customizer/customizer.php:1229
+msgid "Column 3"
+msgstr ""
+
+#: lib/customizer/customizer.php:1230
+msgid "Column 4"
+msgstr ""
+
+#: lib/customizer/customizer.php:1235
+msgid "Enable Blog Date"
+msgstr ""
+
+#: lib/customizer/customizer.php:1243
+msgid "Enable Blog Author"
+msgstr ""
+
+#: lib/customizer/customizer.php:1252
+msgid "Enable Blog Category"
+msgstr ""
+
+#: lib/customizer/customizer.php:1260
+msgid "Post character Limit"
+msgstr ""
+
+#: lib/customizer/customizer.php:1267
+msgid "Enable Blog Readmore"
+msgstr ""
+
+#: lib/customizer/customizer.php:1276
+msgid "Continue Reading"
+msgstr ""
+
+#: lib/customizer/customizer.php:1286
+#: lib/customizer/customizer.php:1287
+msgid "Footer Setting"
+msgstr ""
+
+#: lib/customizer/customizer.php:1293
+msgid "Upload BG Image"
+msgstr ""
+
+#: lib/customizer/customizer.php:1299
+msgid "Footer background Color"
+msgstr ""
+
+#: lib/customizer/customizer.php:1306
+msgid "Copyright Text Color"
+msgstr ""
+
+#: lib/customizer/customizer.php:1313
+msgid "Copyright Top Padding"
+msgstr ""
+
+#: lib/customizer/customizer.php:1320
+msgid "Copyright Bottom Padding"
+msgstr ""
+
+#: lib/customizer/customizer.php:1327
+msgid "Copyright Text"
+msgstr ""
+
+#: lib/customizer/customizer.php:1330
+msgid "2026 Urban Charity. All Rights Reserved."
+msgstr ""
+
+#: lib/main-function/charity-functions.php:70
+msgid "<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: lib/main-function/charity-functions.php:71
+msgid "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: lib/main-function/charity-functions.php:91
+msgid "Sidebar"
+msgstr ""
+
+#: lib/main-function/charity-functions.php:93
+msgid "Widgets in this area will be shown on Sidebar."
+msgstr ""
+
+#: lib/main-function/charity-functions.php:103
+msgid "Footer"
+msgstr ""
+
+#: lib/main-function/charity-functions.php:105
+msgid "Widgets in this area will be shown in footer section."
+msgstr ""
+
+#: lib/main-function/charity-functions.php:123
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: lib/main-function/charity-functions.php:150
+msgid "Home"
+msgstr ""
+
+#: lib/main-function/charity-functions.php:161
+msgid "shop"
+msgstr ""
+
+#: lib/main-function/charity-functions.php:164
+msgid "Posts Tagged "
+msgstr ""
+
+#: lib/main-function/charity-functions.php:166
+#: lib/main-function/charity-functions.php:168
+#: lib/main-function/charity-functions.php:170
+msgid "Posts made in"
+msgstr ""
+
+#: lib/main-function/charity-functions.php:172
+msgid "Search results for"
+msgstr ""
+
+#: lib/main-function/charity-functions.php:200
+msgid "Posts by "
+msgstr ""
+
+#: lib/main-function/charity-functions.php:204
+msgid "Blog"
+msgstr ""
+
+#: lib/sub-header.php:40
+msgid "Shop"
+msgstr ""
+
+#: lib/sub-header.php:57
+msgid "Search"
+msgstr ""
+
+#: lib/sub-header.php:81
+msgid "Event Details"
+msgstr ""
+
+#: lib/sub-header.php:83
+msgid "Albums"
+msgstr ""
+
+#: lib/sub-header.php:85
+msgid "Gallery"
+msgstr ""
+
+#: lib/sub-header.php:87
+msgid "Performer"
+msgstr ""
+
+#: lib/sub-header.php:89
+msgid "Product Details"
+msgstr ""
+
+#: lib/topbar.php:15
+msgid "Call us"
+msgstr ""
+
+#. translators: %s: Post title
+#: page.php:19
+#: post-format/content.php:50
+#: post-format/entry-content.php:6
+#: post-format/entry-content.php:23
+#, php-format
+msgid "Continue reading%s"
+msgstr ""
+
+#: page.php:24
+msgid "Pages:"
+msgstr ""
+
+#: search.php:17
+msgid "Search results for: "
+msgstr ""

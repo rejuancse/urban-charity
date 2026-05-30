@@ -10,8 +10,8 @@
                         <?php get_template_part('lib/social-link'); ?>
 
                         <p class="copyright">
-                            <?php echo wp_kses_post(balanceTags( get_theme_mod( 'copyright_text', '2020 Urban Charity. All Rights Reserved.') )); ?>
-                        </p> 
+                            <?php echo wp_kses_post(balanceTags( get_theme_mod( 'copyright_text', '2026 Urban Charity. All Rights Reserved.') )); ?>
+                        </p>
                     </div>
                 </div>
             </div>

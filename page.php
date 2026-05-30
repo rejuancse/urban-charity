@@ -13,11 +13,12 @@
         <?php endif; ?>
         <div class="entry-content">
             <?php
-                the_content( 
-                    sprintf( 
-                        __( 'Continue reading%s', 'urban-charity' ), 
-                        '<span>'.get_the_title().'</span>' 
-                    ) 
+                the_content(
+                    sprintf(
+                        /* translators: %s: Post title */
+                        __( 'Continue reading%s', 'urban-charity' ),
+                        '<span>'.get_the_title().'</span>'
+                    )
                 );
                 wp_link_pages( array(
                     'before'      => '<div class="page-links"><span class="page-links-title">' . esc_html__( 'Pages:', 'urban-charity' ) . '</span>',

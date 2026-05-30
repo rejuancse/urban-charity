@@ -9,12 +9,12 @@
             <?php else: ?>
                 <div id="content" class="site-content blog-index-wrap col-md-12" role="main">
             <?php endif; ?>
-            
+
                 <?php
                     $index = 1;
                     $col = get_theme_mod( 'blog_column', 12 );
                     if ( have_posts() ) :
-                        while ( have_posts() ) : the_post(); 
+                        while ( have_posts() ) : the_post();
                             if ( $index == '1' ) { ?>
                                 <div class="row">
                             <?php }?>
@@ -25,7 +25,7 @@
                                 </div><!--/row-->
                             <?php $index = 1;
                             }else{
-                                $index++;   
+                                $index++;
                             }
                         endwhile;
                     else:
@@ -35,11 +35,11 @@
                        </div><!--/row-->
                     <?php }
                 ?>
-                
-               <?php                                 
+
+               <?php
                     $page_numb = max( 1, get_query_var('paged') );
                     $max_page = $wp_query->max_num_pages;
-                    urban_charity_pagination( $page_numb, $max_page ); 
+                    urban_charity_pagination( $page_numb, $max_page );
                 ?>
             </div> <!-- .site-content -->
             <?php
@@ -48,7 +48,7 @@
                 }
             ?>
         </div>
-    </div> <!-- .container --> 
+    </div> <!-- .container -->
 </section> <!-- #main -->
 
 <?php get_footer();

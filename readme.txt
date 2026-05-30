@@ -2,13 +2,13 @@
 Contributors: rejuancse
 Tags: blog, news, charity, ngo, crowdfunding, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, theme-options, threaded-comments, translation-ready
 Requires at least: 4.9
-Tested up to: 5.7
+Tested up to: 7.0
 Requires PHP: 5.6
-Stable tag: 2.0.7
+Stable tag: 2.0.8
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
 
-Urban Charity WordPress Theme, Copyright 2020 Rejuan Ahamed
+Urban Charity WordPress Theme, Copyright 2026 Rejuan Ahamed
 
 == Description ==
 
@@ -64,6 +64,9 @@ the directory of the stable readme.txt, so in this case, ` https://themes.svn.wo
 
 
 == Changelog ==
+= 2.0.8 [31/05/2026] =
+* Fixed: Customizer script updated
+* Fixed: CSS issue
 
 = 2.0.7 [16/06/2024] =
 * Added: Deprecated property issue updated

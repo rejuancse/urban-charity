@@ -29,19 +29,18 @@ $urban_charity_discussion = urban_charity_get_discussion_data(); ?>
         } else {
             if ( '1' == $urban_charity_discussion->responses ) {
                 /* translators: %s: post title */
-                printf( esc_html( 'One reply on &ldquo;%s&rdquo;', 'comments title', 'urban-charity' ), esc_html(get_the_title()) );
+                printf( __( 'One reply on &ldquo;%s&rdquo;', 'urban-charity' ), get_the_title() );
             } else {
                 printf(
                     /* translators: 1: number of comments, 2: post title */
-                    esc_html(
+                    _n(
                         '%1$s reply on &ldquo;%2$s&rdquo;',
                         '%1$s replies on &ldquo;%2$s&rdquo;',
                         $urban_charity_discussion->responses,
-                        'comments title',
                         'urban-charity'
                     ),
-                    esc_html(number_format_i18n( $urban_charity_discussion->responses )),
-                    esc_html(get_the_title())
+                    number_format_i18n( $urban_charity_discussion->responses ),
+                    get_the_title()
                 );
             }
         }
@@ -82,8 +81,20 @@ $urban_charity_discussion = urban_charity_get_discussion_data(); ?>
             $comments_text = __( 'Comments', 'urban-charity' );
             the_comments_navigation(
                 array(
-                    'prev_text' => sprintf( '%s <span class="nav-prev-text"><span class="primary-text">%s</span> <span class="secondary-text">%s</span></span>', '<i class="fa fa-arrow-left"></i>', __( 'Previous', 'urban-charity' ), __( 'Comments', 'urban-charity' ) ),
-                    'next_text' => sprintf( '<span class="nav-next-text"><span class="primary-text">%s</span> <span class="secondary-text">%s</span></span> %s', __( 'Next', 'urban-charity' ), __( 'Comments', 'urban-charity' ), '<i class="fa fa-arrow-right"></i>' ),
+                    'prev_text' => sprintf(
+                        /* translators: 1: icon markup, 2: Previous text, 3: Comments text */
+                        '%1$s <span class="nav-prev-text"><span class="primary-text">%2$s</span> <span class="secondary-text">%3$s</span></span>',
+                        '<i class="fa fa-arrow-left"></i>',
+                        __( 'Previous', 'urban-charity' ),
+                        __( 'Comments', 'urban-charity' )
+                    ),
+                    'next_text' => sprintf(
+                        /* translators: 1: Next text, 2: Comments text, 3: icon markup */
+                        '<span class="nav-next-text"><span class="primary-text">%1$s</span> <span class="secondary-text">%2$s</span></span> %3$s',
+                        __( 'Next', 'urban-charity' ),
+                        __( 'Comments', 'urban-charity' ),
+                        '<i class="fa fa-arrow-right"></i>'
+                    ),
                 )
             );
         endif;

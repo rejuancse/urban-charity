@@ -44,11 +44,12 @@
        
         <?php
             if (is_single()){
-                the_content( 
-                    sprintf( 
-                        __( 'Continue reading%s', 'urban-charity' ), 
-                        '<span>'.get_the_title().'</span>' 
-                    ) 
+                the_content(
+                    sprintf(
+                        /* translators: %s: Post title */
+                        __( 'Continue reading%s', 'urban-charity' ),
+                        '<span>'.get_the_title().'</span>'
+                    )
                 );
             }else {
                 get_template_part( 'post-format/entry-content' );
